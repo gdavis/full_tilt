@@ -1,0 +1,14 @@
+entries:
+  - title: Some Title
+    desc: Description about the content
+    images:
+      - images/fpo/stefan-01.jpg
+      - images/fpo/stefan-02.jpg
+      - images/fpo/stefan-03.jpg
+
+  - title: Title Two
+    desc: Description about content 2
+    images:
+      - images/fpo/stefan-01.jpg
+      - images/fpo/stefan-02.jpg
+      - images/fpo/stefan-03.jpg
