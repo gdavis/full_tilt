@@ -1,0 +1,20 @@
+.left-right-gallery
+  .image-container
+    .gallery-images
+      %ul
+        - data.images.each do |image|
+          %li
+            %img{ :src => image }
+          .clear
+    .gallery-controls
+      .left-btn
+        %a{ :href => '#previous-image' }
+          %img{ :src => '/images/gallery-btn-left.png' }
+      .right-btn
+        %a{ :href => '#next-image' }
+          %img{ :src => '/images/gallery-btn-right.png' }
+  .gallery_title.audi_type_extended.left
+    = data.title
+  .gallery_copy.left
+    = data.desc
+.clear

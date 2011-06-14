@@ -1,0 +1,80 @@
+//@import "compass"
+//@import "blueprint"
+//
+//$font-color:         #2a2a2a
+//$link-color:         #0388a6
+//$link-hover-color:   #009ce0
+//$link-focus-color:   $link-color
+//$link-active-color:  $link-color
+//$link-visited-color: $link-color
+//
+//$blueprint-font-family:  'Century Gothic', 'Apple Gothic', 'Helvetica Neue', arial, sans-serif
+//$blueprint-font-size:    13px
+//$blueprint-grid-columns: 12
+//$blueprint-grid-width:   60px
+//$blueprint-grid-margin:  20px
+//
+$gallery-width:          950px
+$gallery-height:         475px
+
+$image-height:          350px
+
+//
+//+global-reset
+//
+//+blueprint-typography
+
+//a
+//  +link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color)
+
+ul, li
+  padding: 0
+  margin: 0
+
+#main
+  padding: 50px
+  text-align: center
+  //+container
+
+#gallery
+  width: $gallery-width
+  background-color: #ff0000
+
+// Left-Right Image Gallery
+
+.left-right-gallery
+  position: relative
+  height: $gallery-height
+
+  .image-container
+    height: $image-height
+
+  ul
+    list-style: none
+
+  img
+    display: block
+
+  .right-btn, .left-btn
+    position: absolute
+    width: 32px
+    height: 36px
+    top: 50%
+    margin-top: -18px
+
+  .left-btn
+    left: 15px
+
+  .right-btn
+    right: 15px
+
+.js-enabled .left-right-gallery
+  overflow: hidden
+
+  .gallery-images li
+    float: left
+    width: $gallery-width
+
+  .gallery-images, .gallery-controls
+    position: absolute
+    display: block
