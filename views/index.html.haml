@@ -5,9 +5,9 @@
       var galleryContainer = $('.left-right-gallery');
       console.log('number of gallery containers: ' + galleryContainer.length );
       galleryContainer.each(function( $index, $el ){
-        new $.LeftRightGallery( $el, 950, 740 );
+        new $.LeftRightGallery( $el, 950, 485 );
       })
     });
 #projects
   - data.projects['entries'].each do |entry|
-    = render 'entry', :locals => { :data => entry }
+    = render '_entry', :locals => { :data => entry }

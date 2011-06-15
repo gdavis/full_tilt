@@ -26,8 +26,8 @@
             imagesContainer.width( (total * width) + 'px' );
 
             // give the controls a set size to correctly position the buttons. fixes IE's lack of support for 'inherit' CSS declarations.
-            controlsContainer.width( width + 'px' );
-            controlsContainer.height( height + 'px' );
+//            controlsContainer.width( width + 'px' );
+           controlsContainer.height( height + 'px' );
             
             // prevent dragging/selecting of buttons and images
             imagesContainer.get(0).onselectstart = function(){ return false; };
@@ -70,8 +70,8 @@
         };
 
         base.updateButtons = function() {
-            index == 0 ? leftBtn.hide() : leftBtn.show();
-            index == total-1 ? rightBtn.hide() : rightBtn.show();
+            index == 0 ? leftBtn.addClass('disabled') : leftBtn.removeClass('disabled');
+            index == total-1 ? rightBtn.addClass('disabled') : rightBtn.removeClass('disabled');
         };
 
         base.handleMenuClick = function( $e, $index ) {

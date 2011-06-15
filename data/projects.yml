@@ -1,12 +1,13 @@
 entries:
-  - title: The North Face<sup><span style="font-size:18px;">®</span></sup> Snow Report iPhone App
-    client: The North Face<sup>®</sup>
+  - title: The North Face<sup><span style="font-size:16px;">®</span></sup> Snow Report iPhone App
+    client: The North Face<sup><span style="font-size:10px;">®</span></sup>
     agency: Factory Design Labs
     role: Lead UI Developer
-    desc: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork. Sint salami ut, shank meatball hamburger rump est flank velit.
+    tech: Objective-C
+    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
     link:
-      label: "VIEW SITE"
-      url: "http://google.com"
+      label: "download app"
+      url: "http://itunes.store.com"
       alt: "Click to view the site"
       target: "_blank"
     images:
@@ -15,7 +16,16 @@ entries:
       - images/fpo/stefan-03.jpg
 
   - title: Differences Ski Configurator
-    desc: Description about content 2
+    client: The North Face<sup>®</sup>
+    agency: Factory Design Labs
+    role: Lead UI Developer
+    tech: Objective-C
+    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+    link:
+      label: "VIEW SITE"
+      url: "http://google.com"
+      alt: "Click to view the site"
+      target: "_blank"
     images:
       - images/fpo/stefan-01.jpg
       - images/fpo/stefan-02.jpg

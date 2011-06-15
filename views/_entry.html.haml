@@ -1,0 +1,61 @@
+.entry
+  .project_header
+    .bucket
+      .project_title.tw-cen-mt.left
+        = data.title.upcase
+      - if data.link
+        %a.big-blue-button.tw-cen-mt.right{ :href => data.link.url, :alt => data.link.alt, :target => data.link.target }
+          %em +
+          %span
+            = data.link.label.upcase
+  .left-right-gallery
+    .image-container
+      .gallery-images
+        %ul
+          - data.images.each do |image|
+            %li
+              %img{ :src => image }
+    .gallery-controls
+      .left-btn
+        %a{ :href => '#previous-image' }
+          %img{ :src => '/images/gallery-btn-left.png' }
+      .right-btn
+        %a{ :href => '#next-image' }
+          %img{ :src => '/images/gallery-btn-right.png' }
+  .bucket
+    .project-details
+      %p
+        .info-label
+          %span.subhead client
+          %span.colon ::
+        .info-content
+          =data.client
+
+      %p
+        .info-label
+          %span.subhead agency
+          %span.colon ::
+        .info-content
+          =data.agency
+
+      %p
+        .info-label
+          %span.subhead role
+          %span.colon ::
+        .info-content
+          =data.role
+
+      %p
+        .info-label
+          %span.subhead tech
+          %span.colon ::
+        .info-content
+          =data.tech
+    .project-details
+      %p
+        .info-label
+          %span.subhead details
+          %span.colon ::
+        .info-content
+          =data.details
+  .clear

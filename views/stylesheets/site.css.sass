@@ -3,20 +3,23 @@
 //
 $font-color:         #000
 $link-color:         #000
-$link-hover-color:   #00b1d4
+$link-hover-color:   #ff00ff
 $link-focus-color:   $link-color
 $link-active-color:  $link-hover-color
 $link-visited-color: $link-color
-//
+
 //$blueprint-font-family:  'Century Gothic', 'Apple Gothic', 'Helvetica Neue', arial, sans-serif
 //$blueprint-font-size:    13px
 //$blueprint-grid-columns: 12
 //$blueprint-grid-width:   60px
 //$blueprint-grid-margin:  20px
-//
+
 $gallery-width:          920px
-$gallery-height:         740px
+$gallery-height:         485px
 $image-height:           485px
+$details-font-family:     'Arial',sans-serif
+$tw-cen-mt-font-family:   'TwCenMT-Regular'
+$tw-cen-mt-bold-font-family:   'TwCenMT-Bold'
 
 //
 //+global-reset
@@ -24,7 +27,23 @@ $image-height:           485px
 //+blueprint-typography
 
 a
+  text-decoration: none
   +link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color)
+
+a:hover
+  text-decoration: underline
+  color: #ffa100
+
+sup, sub
+  vertical-align: 0
+  position: relative
+
+sup
+  bottom: 1ex
+
+sub
+  top: .8ex
+  
 
 .left
   float: left
@@ -33,13 +52,13 @@ a
 .clear
   clear: both
 
-.tw-cen-mt, .tw-cen-mt-bold
-  font-family: TWCenMT, Arial, san-serif
+.tw-cen-mt
+  font-family: $tw-cen-mt-font-family
 .tw-cen-mt-bold
-  font-weight: bold
+  font-family: $tw-cen-mt-bold-font-family
 
 .helvetica, .helvetica-bold
-  font-family: HelveticaNeue, Arial, san-serif
+  font-family: HelveticaNeue, Helvetica, Arial, san-serif
 .helvetica-bold
   font-weight: bold
 
@@ -83,6 +102,9 @@ body
     top: 75px
     right: 30px
 
+    span
+      color: #999
+
 #footer
   text-align: center
   color: #999
@@ -100,29 +122,70 @@ body
   width: 889px
   margin: 0 auto
 
-.big-blue-button
-  font-family: TWCenMT, Arial, san-serif
+a.big-blue-button
+  font-family: $tw-cen-mt-font-family
   font-size: 28px
-  margin: 15px 5px 0 0
-  padding: 0 10px
+  margin: 12px 5px 0 0
+  padding: 0 5px
   color: #fff
   height: 33px
-  line-height: 28px
+  line-height: 33px
   background: url("/images/button-bg.gif") repeat-x
+  -moz-box-shadow: 2px 2px 2px #999
+  -webkit-box-shadow: 2px 2px 2px #999
+  box-shadow: 2px 2px 2px #999
 
   em
-    font-size: 24px
+    font-family: $tw-cen-mt-bold-font-family
     font-weight: bold
+
+a.big-blue-button:hover
+  text-decoration: none
+  background-position: 0 -33px
+
+.project-details
+  width: 50%
+  position: relative
+  float: left
+  text-align: left
+  line-height: 24px
+  margin-bottom: 30px
+
+  .info-label
+    width: 75px
+    text-align: right
+    float: left
+  .info-content
+    float: left
+    width: 80%
+
+
+  p
+    font-family: $details-font-family
+    font-size: 14px
+    color: 000
+
+  .subhead
+    font-weight: bold
+
+  .colon
+    color: #999
+    padding-right: 5px
 
 .left-right-gallery
   position: relative
-  width: 920px
+  width: 1024px
   height: $gallery-height
   margin: 0 auto
 
   .image-container
+    position: relative
+    left: 0
+    top: 0
     overflow: hidden
+    width: 919px
     height: $image-height
+    margin: 0 auto
 
   ul
     list-style: none
@@ -133,18 +196,24 @@ body
   .right-btn, .left-btn
     position: absolute
     width: 32px
-    height: 36px
+    height: 31px
     top: 50%
     margin-top: -18px
+    overflow: hidden
+
+  .disabled.right-btn img, .disabled.left-btn img, .disabled.right-btn img:hover, .disabled.left-btn img:hover
+    margin-top: -62px
+
+  .right-btn img:hover, .left-btn img:hover
+    margin-top: -31px
 
   .left-btn
-    left: 15px
+    left: 5px
 
   .right-btn
-    right: 15px
+    right: 5px
 
 .js-enabled .left-right-gallery
-  overflow: hidden
 
   .gallery-images
     position: absolute
@@ -152,7 +221,11 @@ body
   .gallery-images li
     float: left
     width: $gallery-width
+    overflow: hidden
 
-  .gallery-images, .gallery-controls
+  .gallery-controls
     position: absolute
     display: block
+    top: 0
+    left: 0
+    width: 100%
