@@ -1,12 +1,12 @@
-//@import "compass"
+@import "compass"
 //@import "blueprint"
 //
-//$font-color:         #2a2a2a
-//$link-color:         #0388a6
-//$link-hover-color:   #009ce0
-//$link-focus-color:   $link-color
-//$link-active-color:  $link-color
-//$link-visited-color: $link-color
+$font-color:         #000
+$link-color:         #000
+$link-hover-color:   #00b1d4
+$link-focus-color:   $link-color
+$link-active-color:  $link-hover-color
+$link-visited-color: $link-color
 //
 //$blueprint-font-family:  'Century Gothic', 'Apple Gothic', 'Helvetica Neue', arial, sans-serif
 //$blueprint-font-size:    13px
@@ -14,39 +14,114 @@
 //$blueprint-grid-width:   60px
 //$blueprint-grid-margin:  20px
 //
-$gallery-width:          950px
-$gallery-height:         475px
-
-$image-height:          350px
+$gallery-width:          920px
+$gallery-height:         740px
+$image-height:           485px
 
 //
 //+global-reset
 //
 //+blueprint-typography
 
-//a
-//  +link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color)
+a
+  +link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color)
 
-ul, li
+.left
+  float: left
+.right
+  float: right
+.clear
+  clear: both
+
+.tw-cen-mt, .tw-cen-mt-bold
+  font-family: TWCenMT, Arial, san-serif
+.tw-cen-mt-bold
+  font-weight: bold
+
+.helvetica, .helvetica-bold
+  font-family: HelveticaNeue, Arial, san-serif
+.helvetica-bold
+  font-weight: bold
+
+html, body, ul, li
+  font-family: Arial, san-serif
+  font-size: 14px
   padding: 0
   margin: 0
 
-#main
-  padding: 50px
+body
   text-align: center
-  //+container
 
-#gallery
-  width: $gallery-width
-  background-color: #ff0000
+#frame
+  width: 100%
+  
+#container
+  width: 1024px
+  margin: 0 auto
 
-// Left-Right Image Gallery
+#header
+  width: 920px
+  margin: 0 auto
+  height: 153px
+  font-size: 72px
+  position: relative
+
+  .title
+    span
+      margin-left: -20px
+      
+    position: absolute
+    left: 30px
+    top: 30px
+    .ext
+      font-size: 16px
+      color: #999
+
+  .info
+    font-size: 16px
+    position: absolute
+    top: 75px
+    right: 30px
+
+#footer
+  text-align: center
+  color: #999
+
+.project_header
+  height: 60px
+  line-height: 60px
+  text-align: left
+  background: url("/images/section-div-gradient.gif") repeat-x
+
+  .project_title
+    font-size: 28px
+
+.bucket
+  width: 889px
+  margin: 0 auto
+
+.big-blue-button
+  font-family: TWCenMT, Arial, san-serif
+  font-size: 28px
+  margin: 15px 5px 0 0
+  padding: 0 10px
+  color: #fff
+  height: 33px
+  line-height: 28px
+  background: url("/images/button-bg.gif") repeat-x
+
+  em
+    font-size: 24px
+    font-weight: bold
 
 .left-right-gallery
   position: relative
+  width: 920px
   height: $gallery-height
+  margin: 0 auto
 
   .image-container
+    overflow: hidden
     height: $image-height
 
   ul
@@ -70,6 +145,9 @@ ul, li
 
 .js-enabled .left-right-gallery
   overflow: hidden
+
+  .gallery-images
+    position: absolute
 
   .gallery-images li
     float: left

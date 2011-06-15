@@ -1,12 +1,20 @@
 entries:
-  - title: Some Title
-    desc: Description about the content
+  - title: The North Face<sup><span style="font-size:18px;">®</span></sup> Snow Report iPhone App
+    client: The North Face<sup>®</sup>
+    agency: Factory Design Labs
+    role: Lead UI Developer
+    desc: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork. Sint salami ut, shank meatball hamburger rump est flank velit.
+    link:
+      label: "VIEW SITE"
+      url: "http://google.com"
+      alt: "Click to view the site"
+      target: "_blank"
     images:
-      - images/fpo/stefan-01.jpg
+      - images/projects/snowreport.jpg
       - images/fpo/stefan-02.jpg
       - images/fpo/stefan-03.jpg
 
-  - title: Title Two
+  - title: Differences Ski Configurator
     desc: Description about content 2
     images:
       - images/fpo/stefan-01.jpg

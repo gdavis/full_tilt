@@ -1,3 +1,11 @@
+.project_header
+  .bucket
+    .project_title.tw-cen-mt.left
+      = data.title.upcase
+    - if data.link
+      %a.big-blue-button.tw-cen-mt.right{ :href => data.link.url, :alt => data.link.alt, :target => data.link.target }
+        %em +
+        = data.link.label.upcase
 .left-right-gallery
   .image-container
     .gallery-images
@@ -5,7 +13,6 @@
         - data.images.each do |image|
           %li
             %img{ :src => image }
-          .clear
     .gallery-controls
       .left-btn
         %a{ :href => '#previous-image' }

@@ -17,15 +17,33 @@
     = javascript_include_tag "application.js"
     = javascript_include_tag "function_util.js"
     = javascript_include_tag "jquery.pngFix.js"
+    = javascript_include_tag "cufon-yui.js"
+    = javascript_include_tag "TwCenMT.font.js"
+    = javascript_include_tag "HelveticaNeue.font.js"
 
     :javascript
       // Comment in javascript
+      $(document).ready(function() {
+        Cufon.replace(".tw-cen-mt, .tw-cen-mt-bold", { fontName:"TwCentMT" });
+        Cufon.replace(".helvetica, .helvetica-bold", { fontName:"HelveticaNeue" });
+      });
 
     = yield_content :head
     
   %body{ :class => page_classes }
-
-    #main{ :role => "main" }
+    #frame
       :javascript
-        $('#main').addClass('js-enabled');
-      = yield
+          $('#frame').addClass('js-enabled');
+      #header.bucket
+        .title
+          %span.helvetica grant
+          %span.helvetica-bold davis
+          %span.helvetica.ext .net
+        .info.tw-cen-mt
+          = link_to "grant.davis@gmail.com", "mailto:grant.davis@gmail.com"
+          %span ::
+          = link_to "download resumé", "media/pdf/Grant-Davis-2011.pdf"
+      #content
+        = yield
+      #footer.project_header
+        © Copyright 2011 Grant Davis Interactive, LLC
