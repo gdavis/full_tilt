@@ -14,12 +14,12 @@ $link-visited-color: $link-color
 //$blueprint-grid-width:   60px
 //$blueprint-grid-margin:  20px
 
-$gallery-width:          920px
-$gallery-height:         485px
-$image-height:           485px
-$details-font-family:     'Arial',sans-serif
-$tw-cen-mt-font-family:   'TwCenMT-Regular'
-$tw-cen-mt-bold-font-family:   'TwCenMT-Bold'
+$gallery-width:                 920px
+$gallery-height:                485px
+$image-height:                  485px
+$details-font-family:           'Arial',sans-serif
+$tw-cen-mt-font-family:         'TwCenMT-Regular'
+$tw-cen-mt-bold-font-family:    'TwCenMT-Bold'
 
 //
 //+global-reset
@@ -86,20 +86,24 @@ body
   position: relative
 
   .title
-    span
-      margin-left: -20px
-      
     position: absolute
     left: 30px
     top: 30px
+
+    span
+      margin-left: -20px
+
     .ext
+      vertical-align: 0
+      position: relative
+      top: .45ex
       font-size: 16px
       color: #999
 
   .info
     font-size: 16px
     position: absolute
-    top: 75px
+    top: 91px
     right: 30px
 
     span
@@ -110,8 +114,8 @@ body
   color: #999
 
 .project_header
-  height: 60px
-  line-height: 60px
+  height: 65px
+  line-height: 65px
   text-align: left
   background: url("/images/section-div-gradient.gif") repeat-x
 
@@ -126,18 +130,22 @@ a.big-blue-button
   font-family: $tw-cen-mt-font-family
   font-size: 28px
   margin: 12px 5px 0 0
+  position: relative
   padding: 0 5px
   color: #fff
   height: 33px
-  line-height: 33px
   background: url("/images/button-bg.gif") repeat-x
   -moz-box-shadow: 2px 2px 2px #999
   -webkit-box-shadow: 2px 2px 2px #999
   box-shadow: 2px 2px 2px #999
 
-  em
-    font-family: $tw-cen-mt-bold-font-family
-    font-weight: bold
+  div 
+    float: left
+    position: relative
+    top: 3px
+    height: 28px
+    line-height: 0
+    overflow: hidden
 
 a.big-blue-button:hover
   text-decoration: none
@@ -201,6 +209,9 @@ a.big-blue-button:hover
     margin-top: -18px
     overflow: hidden
 
+  .disabled a, .disabled a:hover
+    cursor: default
+    
   .disabled.right-btn img, .disabled.left-btn img, .disabled.right-btn img:hover, .disabled.left-btn img:hover
     margin-top: -62px
 
@@ -229,3 +240,20 @@ a.big-blue-button:hover
     top: 0
     left: 0
     width: 100%
+
+.gallery-menu
+  display: inline-block
+  margin: 0 auto
+
+  .dot
+    cursor: pointer
+    margin: 10px
+    width: 9px
+    height: 9px
+    overflow: hidden
+    float: left
+    background: url("/images/dot.gif") no-repeat top left
+
+  .dot.active
+    cursor: default
+    background-position: 0 -9px

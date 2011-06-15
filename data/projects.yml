@@ -12,8 +12,8 @@ entries:
       target: "_blank"
     images:
       - images/projects/snowreport.jpg
-      - images/fpo/stefan-02.jpg
-      - images/fpo/stefan-03.jpg
+      - images/projects/snowreport.jpg
+      - images/projects/snowreport.jpg
 
   - title: Differences Ski Configurator
     client: The North Face<sup>®</sup>
@@ -27,6 +27,4 @@ entries:
       alt: "Click to view the site"
       target: "_blank"
     images:
-      - images/fpo/stefan-01.jpg
-      - images/fpo/stefan-02.jpg
-      - images/fpo/stefan-03.jpg
+      - images/projects/snowreport.jpg

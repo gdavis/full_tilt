@@ -14,18 +14,18 @@
     = javascript_include_tag "platform_helper.js"
     = javascript_include_tag "jquery-1.6.1.min.js"
     = javascript_include_tag "left-right-gallery.js"
+    = javascript_include_tag "gallery-menu.js"
     = javascript_include_tag "application.js"
     = javascript_include_tag "function_util.js"
     = javascript_include_tag "jquery.pngFix.js"
     = javascript_include_tag "cufon-yui.js"
-    = javascript_include_tag "TwCenMT.font.js"
     = javascript_include_tag "HelveticaNeue.font.js"
-
+    = javascript_include_tag "TwCenMT.font.js"
+    
     :javascript
-      // Comment in javascript
-      $(document).ready(function() {
-        Cufon.replace(".helvetica, .helvetica-bold", { fontName:"HelveticaNeue" });
-      });
+      Cufon.replace(".helvetica, .helvetica-bold", { fontFamily:"HelveticaNeue" });
+      Cufon.replace(".tw-cen-mt", { fontFamily:"TwCenMT-Regular" });
+      Cufon.replace(".tw-cen-mt-bold", { fontFamily:"TwCenMT-Bold" });
 
     = yield_content :head
     
@@ -46,3 +46,7 @@
         = yield
       #footer.project_header
         © Copyright 2011 Grant Davis Interactive, LLC
+
+      :javascript 
+        <!-- To avoid delays, initialize Cufón before other scripts at the bottom -->
+        Cufon.now();

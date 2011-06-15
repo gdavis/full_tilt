@@ -1,12 +1,15 @@
 (function($) {
     $.LeftRightGallery = function( $el, $width, $height ) {
 
-        var container = $el;
-        var width = $width || $(container).width();
-        var height = $height || $(container).height();
         var base = this;
+
+        // public vars
+        var container = base.container = $el;
+        var width = base.width = $width || $(container).width();
+        var height = base.height = $height || $(container).height();
+
+        // private vars
         var imagesContainer = $('.gallery-images', container);
-        var imagesList = $('ul', imagesContainer);
         var controlsContainer = $('.gallery-controls', container);
         var leftBtn = $('.left-btn', controlsContainer );
         var rightBtn = $('.right-btn', controlsContainer );
@@ -25,9 +28,14 @@
             // give the overall image container a new width to hold all the images
             imagesContainer.width( (total * width) + 'px' );
 
-            // give the controls a set size to correctly position the buttons. fixes IE's lack of support for 'inherit' CSS declarations.
-//            controlsContainer.width( width + 'px' );
-           controlsContainer.height( height + 'px' );
+            // hide controls if we don't have enough to page through
+            if( total <= 1 ) {
+                controlsContainer.hide();
+            }
+            else {
+               // give the controls a set size to correctly position the buttons. fixes IE's lack of support for 'inherit' CSS declarations.
+               controlsContainer.height( height + 'px' );
+            }
             
             // prevent dragging/selecting of buttons and images
             imagesContainer.get(0).onselectstart = function(){ return false; };
@@ -66,18 +74,19 @@
         base.move = function() {
             var xp = -( index * width );
             $(imagesContainer).animate({ left:xp });
-            $(container).trigger( $.LeftRightGallery.CHANGE, index );
+            $(container).trigger( $.LeftRightGallery.CHANGE, new String(index));
+        };
+
+        base.setIndex = function( $index ) {
+            index = Math.max( 0, Math.min( total, $index ));
+            console.log('new index: ' + index );
+            base.move();
+            base.updateButtons();
         };
 
         base.updateButtons = function() {
             index == 0 ? leftBtn.addClass('disabled') : leftBtn.removeClass('disabled');
             index == total-1 ? rightBtn.addClass('disabled') : rightBtn.removeClass('disabled');
-        };
-
-        base.handleMenuClick = function( $e, $index ) {
-            index = $index;
-            base.move();
-            base.updateButtons();
         };
 
         base.init();

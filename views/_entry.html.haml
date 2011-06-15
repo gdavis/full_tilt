@@ -4,10 +4,12 @@
       .project_title.tw-cen-mt.left
         = data.title.upcase
       - if data.link
-        %a.big-blue-button.tw-cen-mt.right{ :href => data.link.url, :alt => data.link.alt, :target => data.link.target }
-          %em +
-          %span
+        %a.big-blue-button.right{ :href => data.link.url, :alt => data.link.alt, :target => data.link.target }
+          .tw-cen-mt-bold
+            +
+          .tw-cen-mt
             = data.link.label.upcase
+
   .left-right-gallery
     .image-container
       .gallery-images
@@ -22,6 +24,8 @@
       .right-btn
         %a{ :href => '#next-image' }
           %img{ :src => '/images/gallery-btn-right.png' }
+  .bucket
+    .gallery-menu
   .bucket
     .project-details
       %p
