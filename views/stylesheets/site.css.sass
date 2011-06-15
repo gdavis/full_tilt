@@ -18,8 +18,8 @@ $gallery-width:                 920px
 $gallery-height:                485px
 $image-height:                  485px
 $details-font-family:           'Arial',sans-serif
-$tw-cen-mt-font-family:         'TwCenMT-Regular'
-$tw-cen-mt-bold-font-family:    'TwCenMT-Bold'
+$tw-cen-mt-font-family:         'TwCenMT'
+//$tw-cen-mt-bold-font-family:    'TwCenMT-Bold'
 
 //
 //+global-reset
@@ -31,8 +31,7 @@ a
   +link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color)
 
 a:hover
-  text-decoration: underline
-  color: #ffa100
+  color: #ff6100
 
 sup, sub
   vertical-align: 0
@@ -52,10 +51,18 @@ sub
 .clear
   clear: both
 
+.text-left
+  text-align: left
+.text-right
+  text-align: right
+.text-center
+  text-align: center
+
+
 .tw-cen-mt
   font-family: $tw-cen-mt-font-family
 .tw-cen-mt-bold
-  font-family: $tw-cen-mt-bold-font-family
+  font-weight: bold
 
 .helvetica, .helvetica-bold
   font-family: HelveticaNeue, Helvetica, Arial, san-serif
@@ -65,11 +72,9 @@ sub
 html, body, ul, li
   font-family: Arial, san-serif
   font-size: 14px
+  line-height: 16px
   padding: 0
   margin: 0
-
-body
-  text-align: center
 
 #frame
   width: 100%
@@ -95,29 +100,31 @@ body
 
     .ext
       vertical-align: 0
-      position: relative
-      top: .45ex
+      position: absolute
+      top: 60px
+      left: 37px
       font-size: 16px
       color: #999
 
   .info
     font-size: 16px
     position: absolute
-    top: 91px
+    top: 73px
     right: 30px
 
     span
       color: #999
 
 #footer
+  font-size: 12px
   text-align: center
   color: #999
 
 .project_header
-  height: 65px
+  min-height: 65px
   line-height: 65px
   text-align: left
-  background: url("/images/section-div-gradient.gif") repeat-x
+  background: url("../images/section-div-gradient.gif") repeat-x
 
   .project_title
     font-size: 28px
@@ -125,53 +132,51 @@ body
 .bucket
   width: 889px
   margin: 0 auto
+  position: relative
 
 a.big-blue-button
-  font-family: $tw-cen-mt-font-family
-  font-size: 28px
-  margin: 12px 5px 0 0
-  position: relative
+  height: 33px
+  position: absolute
+  top: 16px
+  right: 5px
   padding: 0 5px
   color: #fff
-  height: 33px
-  background: url("/images/button-bg.gif") repeat-x
+  background: url("../images/button-bg.gif") repeat-x
   -moz-box-shadow: 2px 2px 2px #999
   -webkit-box-shadow: 2px 2px 2px #999
   box-shadow: 2px 2px 2px #999
 
-  div 
+  div
+    font-size: 28px
+    line-height: 1px
     float: left
+    height: 33px
     position: relative
     top: 3px
-    height: 28px
-    line-height: 0
-    overflow: hidden
+    overflow: visible
 
 a.big-blue-button:hover
   text-decoration: none
   background-position: 0 -33px
 
 .project-details
-  width: 50%
   position: relative
-  float: left
   text-align: left
   line-height: 24px
-  margin-bottom: 30px
+  margin: 0 auto 30px auto
+  width: 40%
 
   .info-label
-    width: 75px
+    width: 30%
     text-align: right
     float: left
   .info-content
     float: left
-    width: 80%
-
+    width: 70%
 
   p
     font-family: $details-font-family
     font-size: 14px
-    color: 000
 
   .subhead
     font-weight: bold
@@ -247,12 +252,12 @@ a.big-blue-button:hover
 
   .dot
     cursor: pointer
-    margin: 10px
+    margin: 20px 10px 10px 10px
     width: 9px
     height: 9px
     overflow: hidden
     float: left
-    background: url("/images/dot.gif") no-repeat top left
+    background: url("../images/dot.gif") no-repeat top left
 
   .dot.active
     cursor: default

@@ -1,0 +1,268 @@
+/* line 29, ../../views/stylesheets/site.css.sass */
+a {
+  text-decoration: none;
+  color: black; }
+  /* line 18, ../../../../.rvm/gems/ruby-1.8.7-p299/gems/compass-0.11.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:visited {
+    color: fuchsia; }
+  /* line 21, ../../../../.rvm/gems/ruby-1.8.7-p299/gems/compass-0.11.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:focus {
+    color: black; }
+  /* line 24, ../../../../.rvm/gems/ruby-1.8.7-p299/gems/compass-0.11.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:hover {
+    color: fuchsia; }
+  /* line 27, ../../../../.rvm/gems/ruby-1.8.7-p299/gems/compass-0.11.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:active {
+    color: black; }
+
+/* line 33, ../../views/stylesheets/site.css.sass */
+a:hover {
+  text-decoration: underline;
+  color: #ffa100; }
+
+/* line 37, ../../views/stylesheets/site.css.sass */
+sup, sub {
+  vertical-align: 0;
+  position: relative; }
+
+/* line 41, ../../views/stylesheets/site.css.sass */
+sup {
+  bottom: 1ex; }
+
+/* line 44, ../../views/stylesheets/site.css.sass */
+sub {
+  top: 0.8ex; }
+
+/* line 48, ../../views/stylesheets/site.css.sass */
+.left {
+  float: left; }
+
+/* line 50, ../../views/stylesheets/site.css.sass */
+.right {
+  float: right; }
+
+/* line 52, ../../views/stylesheets/site.css.sass */
+.clear {
+  clear: both; }
+
+/* line 55, ../../views/stylesheets/site.css.sass */
+.tw-cen-mt {
+  font-family: "TwCenMT-Regular"; }
+
+/* line 57, ../../views/stylesheets/site.css.sass */
+.tw-cen-mt-bold {
+  font-family: "TwCenMT-Bold"; }
+
+/* line 60, ../../views/stylesheets/site.css.sass */
+.helvetica, .helvetica-bold {
+  font-family: HelveticaNeue, Helvetica, Arial, san-serif; }
+
+/* line 62, ../../views/stylesheets/site.css.sass */
+.helvetica-bold {
+  font-weight: bold; }
+
+/* line 65, ../../views/stylesheets/site.css.sass */
+html, body, ul, li {
+  font-family: Arial, san-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0; }
+
+/* line 71, ../../views/stylesheets/site.css.sass */
+#frame {
+  width: 100%; }
+
+/* line 74, ../../views/stylesheets/site.css.sass */
+#container {
+  width: 1024px;
+  margin: 0 auto; }
+
+/* line 78, ../../views/stylesheets/site.css.sass */
+#header {
+  width: 920px;
+  margin: 0 auto;
+  height: 153px;
+  font-size: 72px;
+  position: relative; }
+  /* line 85, ../../views/stylesheets/site.css.sass */
+  #header .title {
+    position: absolute;
+    left: 30px;
+    top: 30px; }
+    /* line 90, ../../views/stylesheets/site.css.sass */
+    #header .title span {
+      margin-left: -20px; }
+    /* line 93, ../../views/stylesheets/site.css.sass */
+    #header .title .ext {
+      vertical-align: 0;
+      position: relative;
+      top: 0.45ex;
+      font-size: 16px;
+      color: #999999; }
+  /* line 100, ../../views/stylesheets/site.css.sass */
+  #header .info {
+    font-size: 16px;
+    position: absolute;
+    top: 91px;
+    right: 30px; }
+    /* line 106, ../../views/stylesheets/site.css.sass */
+    #header .info span {
+      color: #999999; }
+
+/* line 109, ../../views/stylesheets/site.css.sass */
+#footer {
+  text-align: center;
+  color: #999999; }
+
+/* line 113, ../../views/stylesheets/site.css.sass */
+.project_header {
+  height: 65px;
+  line-height: 65px;
+  text-align: left;
+  background: url("../images/section-div-gradient.gif") repeat-x; }
+  /* line 119, ../../views/stylesheets/site.css.sass */
+  .project_header .project_title {
+    font-size: 28px; }
+
+/* line 122, ../../views/stylesheets/site.css.sass */
+.bucket {
+  width: 889px;
+  margin: 0 auto;
+  position: relative; }
+
+/* line 127, ../../views/stylesheets/site.css.sass */
+a.big-blue-button {
+  height: 33px;
+  position: absolute;
+  top: 16px;
+  right: 5px;
+  padding: 0 5px;
+  color: white;
+  background: url("../images/button-bg.gif") repeat-x;
+  -moz-box-shadow: 2px 2px 2px #999999;
+  -webkit-box-shadow: 2px 2px 2px #999999;
+  box-shadow: 2px 2px 2px #999999; }
+  /* line 139, ../../views/stylesheets/site.css.sass */
+  a.big-blue-button div {
+    margin: auto 0;
+    font-size: 28px;
+    line-height: 33px;
+    float: left;
+    top: -1px;
+    position: relative;
+    height: 33px;
+    overflow: hidden; }
+
+/* line 149, ../../views/stylesheets/site.css.sass */
+a.big-blue-button:hover {
+  text-decoration: none;
+  background-position: 0 -33px; }
+
+/* line 153, ../../views/stylesheets/site.css.sass */
+.project-details {
+  width: 50%;
+  position: relative;
+  float: left;
+  text-align: left;
+  line-height: 24px;
+  margin-bottom: 30px; }
+  /* line 161, ../../views/stylesheets/site.css.sass */
+  .project-details .info-label {
+    width: 75px;
+    text-align: right;
+    float: left; }
+  /* line 165, ../../views/stylesheets/site.css.sass */
+  .project-details .info-content {
+    float: left;
+    width: 80%; }
+  /* line 170, ../../views/stylesheets/site.css.sass */
+  .project-details p {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: 0; }
+  /* line 175, ../../views/stylesheets/site.css.sass */
+  .project-details .subhead {
+    font-weight: bold; }
+  /* line 178, ../../views/stylesheets/site.css.sass */
+  .project-details .colon {
+    color: #999999;
+    padding-right: 5px; }
+
+/* line 182, ../../views/stylesheets/site.css.sass */
+.left-right-gallery {
+  position: relative;
+  width: 1024px;
+  height: 485px;
+  margin: 0 auto; }
+  /* line 188, ../../views/stylesheets/site.css.sass */
+  .left-right-gallery .image-container {
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 919px;
+    height: 485px;
+    margin: 0 auto; }
+  /* line 197, ../../views/stylesheets/site.css.sass */
+  .left-right-gallery ul {
+    list-style: none; }
+  /* line 200, ../../views/stylesheets/site.css.sass */
+  .left-right-gallery img {
+    display: block; }
+  /* line 203, ../../views/stylesheets/site.css.sass */
+  .left-right-gallery .right-btn, .left-right-gallery .left-btn {
+    position: absolute;
+    width: 32px;
+    height: 31px;
+    top: 50%;
+    margin-top: -18px;
+    overflow: hidden; }
+  /* line 211, ../../views/stylesheets/site.css.sass */
+  .left-right-gallery .disabled a, .left-right-gallery .disabled a:hover {
+    cursor: default; }
+  /* line 214, ../../views/stylesheets/site.css.sass */
+  .left-right-gallery .disabled.right-btn img, .left-right-gallery .disabled.left-btn img, .left-right-gallery .disabled.right-btn img:hover, .left-right-gallery .disabled.left-btn img:hover {
+    margin-top: -62px; }
+  /* line 217, ../../views/stylesheets/site.css.sass */
+  .left-right-gallery .right-btn img:hover, .left-right-gallery .left-btn img:hover {
+    margin-top: -31px; }
+  /* line 220, ../../views/stylesheets/site.css.sass */
+  .left-right-gallery .left-btn {
+    left: 5px; }
+  /* line 223, ../../views/stylesheets/site.css.sass */
+  .left-right-gallery .right-btn {
+    right: 5px; }
+
+/* line 228, ../../views/stylesheets/site.css.sass */
+.js-enabled .left-right-gallery .gallery-images {
+  position: absolute; }
+/* line 231, ../../views/stylesheets/site.css.sass */
+.js-enabled .left-right-gallery .gallery-images li {
+  float: left;
+  width: 920px;
+  overflow: hidden; }
+/* line 236, ../../views/stylesheets/site.css.sass */
+.js-enabled .left-right-gallery .gallery-controls {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+/* line 243, ../../views/stylesheets/site.css.sass */
+.gallery-menu {
+  display: inline-block;
+  margin: 0 auto; }
+  /* line 247, ../../views/stylesheets/site.css.sass */
+  .gallery-menu .dot {
+    cursor: pointer;
+    margin: 10px;
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    float: left;
+    background: url("../images/dot.gif") no-repeat top left; }
+  /* line 256, ../../views/stylesheets/site.css.sass */
+  .gallery-menu .dot.active {
+    cursor: default;
+    background-position: 0 -9px; }

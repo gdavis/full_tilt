@@ -1,5 +1,5 @@
 - content_for :head do
-  %title FullTiLT
+  %title gd interactive
   :javascript
     $(document).ready(function() {
       var galleryContainers = $('.left-right-gallery');
@@ -10,4 +10,4 @@
     });
 #projects
   - data.projects['entries'].each do |entry|
-    = render '_entry', :locals => { :data => entry }
+    = render '_entry.html.haml', :locals => { :data => entry }

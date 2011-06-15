@@ -1,4 +1,5 @@
 entries:
+  # TNF Snow Report
   - title: The North Face<sup><span style="font-size:16px;">®</span></sup> Snow Report iPhone App
     client: The North Face<sup><span style="font-size:10px;">®</span></sup>
     agency: Factory Design Labs
@@ -11,10 +12,23 @@ entries:
       alt: "Click to view the site"
       target: "_blank"
     images:
-      - images/projects/snowreport.jpg
-      - images/projects/snowreport.jpg
-      - images/projects/snowreport.jpg
+      - images/projects/snowreport-01.jpg
+      - images/projects/snowreport-01.jpg
+      - images/projects/snowreport-01.jpg
 
+  # TNF Trailhead
+
+  # Audi A8 Experience iPad App
+
+  # Audi Ironman 2
+
+  # myAudi
+
+  # Differences Website
+
+  # Audi "Barrells"
+
+  # Differences Ski Configurator
   - title: Differences Ski Configurator
     client: The North Face<sup>®</sup>
     agency: Factory Design Labs
@@ -27,4 +41,12 @@ entries:
       alt: "Click to view the site"
       target: "_blank"
     images:
-      - images/projects/snowreport.jpg
+      - images/projects/differences-01.jpg
+      - images/projects/differences-01.jpg
+      - images/projects/differences-01.jpg
+      - images/projects/differences-01.jpg
+      - images/projects/differences-01.jpg
+      - images/projects/differences-01.jpg
+      - images/projects/differences-01.jpg
+      - images/projects/differences-01.jpg
+      - images/projects/differences-01.jpg

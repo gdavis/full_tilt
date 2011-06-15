@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <!-- Comment in layout -->
+    <link type="text/css" href="/stylesheets/stylesheets/site.css" media="screen" rel="stylesheet" />
+    <!-- include JS libs -->
+    <script type="text/javascript" src="/javascripts/javascripts/platform_helper.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="/javascripts/left-right-gallery.js"></script>
+    <script type="text/javascript" src="/javascripts/gallery-menu.js"></script>
+    <script type="text/javascript" src="/javascripts/application.js"></script>
+    <script type="text/javascript" src="/javascripts/function_util.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.pngFix.js"></script>
+    <script type="text/javascript" src="/javascripts/cufon-yui.js"></script>
+    <script type="text/javascript" src="/javascripts/HelveticaNeue.font.js"></script>
+    <script type="text/javascript" src="/javascripts/TwCenMT.font.js"></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        Cufon.replace(".helvetica, .helvetica-bold", { fontFamily:"HelveticaNeue" });
+        Cufon.replace(".tw-cen-mt", { fontFamily:"TwCenMT-Regular" });
+        Cufon.replace(".tw-cen-mt-bold", { fontFamily:"TwCenMT-Bold" });
+      //]]>
+    </script>
+    <title>FullTiLT</title>
+    <script type='text/javascript'>
+      //<![CDATA[
+        $(document).ready(function() {
+          var galleryContainers = $('.left-right-gallery');
+          galleryContainers.each(function( $index, $el ){
+            var gallery = new $.LeftRightGallery( $el, 920, 485 );
+            new $.GalleryMenu( $( '.gallery-menu', $($el).parent() ).get(0), gallery );
+          });
+        });
+      //]]>
+    </script>
+  </head>
+  <body class='index'>
+    <div id='frame'>
+      <script type='text/javascript'>
+        //<![CDATA[
+            $('#frame').addClass('js-enabled');
+        //]]>
+      </script>
+      <div class='bucket' id='header'>
+        <div class='title'>
+          <span class='helvetica'>grant</span>
+          <span class='helvetica-bold'>davis</span>
+          <span class='helvetica-bold ext'>.net</span>
+        </div>
+        <div class='info tw-cen-mt'>
+          <a href="mailto:grant.davis@gmail.com">grant.davis@gmail.com</a>
+          <span>::</span>
+          <a href="media/pdf/Grant-Davis-2011.pdf">download resumé</a>
+        </div>
+      </div>
+      <div id='content'>
+        <div id='projects'>
+          <div class='entry'>
+            <div class='project_header'>
+              <div class='bucket'>
+                <div class='project_title tw-cen-mt left'>
+                  THE NORTH FACE<SUP><SPAN STYLE="FONT-SIZE:16PX;">®</SPAN></SUP> SNOW REPORT IPHONE APP
+                </div>
+                <a alt='Click to view the site' class='big-blue-button right' href='http://itunes.store.com' target='_blank'>
+                  <div class='tw-cen-mt-bold'>
+                    +
+                  </div>
+                  <div class='tw-cen-mt'>
+                    DOWNLOAD APP
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class='left-right-gallery'>
+              <div class='image-container'>
+                <div class='gallery-images'>
+                  <ul>
+                    <li>
+                      <img src='images/projects/snowreport.jpg' />
+                    </li>
+                    <li>
+                      <img src='images/projects/snowreport.jpg' />
+                    </li>
+                    <li>
+                      <img src='images/projects/snowreport.jpg' />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class='gallery-controls'>
+                <div class='left-btn'>
+                  <a href='#previous-image'>
+                    <img src='/images/gallery-btn-left.png' />
+                  </a>
+                </div>
+                <div class='right-btn'>
+                  <a href='#next-image'>
+                    <img src='/images/gallery-btn-right.png' />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class='bucket'>
+              <div class='gallery-menu'></div>
+            </div>
+            <div class='bucket'>
+              <div class='project-details'>
+                <p>
+                  <div class='info-label'>
+                    <span class='subhead'>client</span>
+                    <span class='colon'>::</span>
+                  </div>
+                  <div class='info-content'>
+                    The North Face<sup><span style="font-size:10px;">®</span></sup>
+                  </div>
+                </p>
+                <p>
+                  <div class='info-label'>
+                    <span class='subhead'>agency</span>
+                    <span class='colon'>::</span>
+                  </div>
+                  <div class='info-content'>
+                    Factory Design Labs
+                  </div>
+                </p>
+                <p>
+                  <div class='info-label'>
+                    <span class='subhead'>role</span>
+                    <span class='colon'>::</span>
+                  </div>
+                  <div class='info-content'>
+                    Lead UI Developer
+                  </div>
+                </p>
+                <p>
+                  <div class='info-label'>
+                    <span class='subhead'>tech</span>
+                    <span class='colon'>::</span>
+                  </div>
+                  <div class='info-content'>
+                    Objective-C
+                  </div>
+                </p>
+              </div>
+              <div class='project-details'>
+                <p>
+                  <div class='info-label'>
+                    <span class='subhead'>details</span>
+                    <span class='colon'>::</span>
+                  </div>
+                  <div class='info-content'>
+                    Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+                  </div>
+                </p>
+              </div>
+            </div>
+            <div class='clear'></div>
+          </div>
+          <div class='entry'>
+            <div class='project_header'>
+              <div class='bucket'>
+                <div class='project_title tw-cen-mt left'>
+                  DIFFERENCES SKI CONFIGURATOR
+                </div>
+                <a alt='Click to view the site' class='big-blue-button right' href='http://google.com' target='_blank'>
+                  <div class='tw-cen-mt-bold'>
+                    +
+                  </div>
+                  <div class='tw-cen-mt'>
+                    VIEW SITE
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class='left-right-gallery'>
+              <div class='image-container'>
+                <div class='gallery-images'>
+                  <ul>
+                    <li>
+                      <img src='images/projects/snowreport.jpg' />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class='gallery-controls'>
+                <div class='left-btn'>
+                  <a href='#previous-image'>
+                    <img src='/images/gallery-btn-left.png' />
+                  </a>
+                </div>
+                <div class='right-btn'>
+                  <a href='#next-image'>
+                    <img src='/images/gallery-btn-right.png' />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class='bucket'>
+              <div class='gallery-menu'></div>
+            </div>
+            <div class='bucket'>
+              <div class='project-details'>
+                <p>
+                  <div class='info-label'>
+                    <span class='subhead'>client</span>
+                    <span class='colon'>::</span>
+                  </div>
+                  <div class='info-content'>
+                    The North Face<sup>®</sup>
+                  </div>
+                </p>
+                <p>
+                  <div class='info-label'>
+                    <span class='subhead'>agency</span>
+                    <span class='colon'>::</span>
+                  </div>
+                  <div class='info-content'>
+                    Factory Design Labs
+                  </div>
+                </p>
+                <p>
+                  <div class='info-label'>
+                    <span class='subhead'>role</span>
+                    <span class='colon'>::</span>
+                  </div>
+                  <div class='info-content'>
+                    Lead UI Developer
+                  </div>
+                </p>
+                <p>
+                  <div class='info-label'>
+                    <span class='subhead'>tech</span>
+                    <span class='colon'>::</span>
+                  </div>
+                  <div class='info-content'>
+                    Objective-C
+                  </div>
+                </p>
+              </div>
+              <div class='project-details'>
+                <p>
+                  <div class='info-label'>
+                    <span class='subhead'>details</span>
+                    <span class='colon'>::</span>
+                  </div>
+                  <div class='info-content'>
+                    Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+                  </div>
+                </p>
+              </div>
+            </div>
+            <div class='clear'></div>
+          </div>
+        </div>
+      </div>
+      <div class='project_header' id='footer'>
+        © Copyright 2011 Grant Davis Interactive, LLC
+      </div>
+      <script type='text/javascript'>
+        //<![CDATA[
+          <!-- To avoid delays, initialize Cufón before other scripts at the bottom -->
+          Cufon.now();
+        //]]>
+      </script>
+    </div>
+  </body>
+</html>

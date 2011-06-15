@@ -21,11 +21,10 @@
     = javascript_include_tag "cufon-yui.js"
     = javascript_include_tag "HelveticaNeue.font.js"
     = javascript_include_tag "TwCenMT.font.js"
-    
+
     :javascript
       Cufon.replace(".helvetica, .helvetica-bold", { fontFamily:"HelveticaNeue" });
-      Cufon.replace(".tw-cen-mt", { fontFamily:"TwCenMT-Regular" });
-      Cufon.replace(".tw-cen-mt-bold", { fontFamily:"TwCenMT-Bold" });
+      Cufon.replace(".tw-cen-mt, .tw-cen-mt-bold", { fontFamily:"TwCenMT", hover:'true' });
 
     = yield_content :head
     
@@ -37,11 +36,11 @@
         .title
           %span.helvetica grant
           %span.helvetica-bold davis
-          %span.helvetica-bold.ext .net
+          %span.helvetica-bold.ext INTERACTIVE
         .info.tw-cen-mt
-          = link_to "grant.davis@gmail.com", "mailto:grant.davis@gmail.com"
+          %a{ :href => "media/pdf/Grant-Davis.pdf", :target => "_blank"} résumé
           %span ::
-          = link_to "download resumé", "media/pdf/Grant-Davis-2011.pdf"
+          = link_to "email", "mailto:grant.davis@gmail.com", :target => '_blank'
       #content
         = yield
       #footer.project_header
