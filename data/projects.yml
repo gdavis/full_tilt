@@ -1,6 +1,6 @@
 entries:
-  # TNF Snow Report
-  - title: The North Face<sup><span style="font-size:16px;">®</span></sup> Snow Report
+  # TNF Trailhead
+  - title: The North Face<sup><span style="font-size:12px;">®</span></sup> Trailhead iPhone App
     client: The North Face<sup><span style="font-size:10px;">®</span></sup>
     agency: Factory Design Labs
     role: Lead UI Developer
@@ -8,32 +8,60 @@ entries:
     details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
     link:
       label: "view in itunes"
-      url: "http://itunes.store.com"
+      url: "http://itunes.apple.com/us/app/trailhead/id380841551?mt=8"
+      alt: "view in the itunes store"
+      target: "_blank"
+    images:
+      - images/projects/trailhead-01.jpg
+      - images/projects/trailhead-02.jpg
+
+  # TNF Snow Report
+  - title: The North Face<sup><span style="font-size:12px;">®</span></sup> Snow Report iPhone App
+    client: The North Face<sup><span style="font-size:10px;">®</span></sup>
+    agency: Factory Design Labs
+    role: Lead UI Developer
+    tech: Objective-C
+    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+    link:
+      label: "view in itunes"
+      url: "http://itunes.apple.com/us/app/the-snow-report/id297613771?mt=8"
       alt: "view in the itunes store"
       target: "_blank"
     images:
       - images/projects/snowreport-01.jpg
-      - images/projects/snowreport-01.jpg
-      - images/projects/snowreport-01.jpg
 
-  # Differences Ski Configurator
-  - title: Differences Ski Configurator
+  # Audi A8 Experience iPad App
+  - title: Audi A8 Experience iPad App
     client: The North Face<sup>®</sup>
     agency: Factory Design Labs
     role: Lead UI Developer
     tech: Objective-C
     details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
     link:
-      label: "VIEW SITE"
-      url: "http://google.com"
+      label: "view in iTunes"
+      url: "http://itunes.apple.com/us/app/audi-a8-experience/id401674171?mt=8"
+      alt: "Click to view the site"
+      target: "_blank"
+    images:
+      - images/projects/a8-experience-01.jpg
+      - images/projects/a8-experience-02.jpg
+
+  # Differences Ski Configurator
+  - title: Differences Ski Configurator
+    client: The North Face<sup>®</sup>
+    agency: Factory Design Labs
+    role: Lead UI Developer
+    tech: Actionscript 3.0 using the Away3D library
+    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+    link:
+      label: "view site"
+      url: "http://en.differences.li/skis-home/skis/custom-ski-configurator"
       alt: "Click to view the site"
       target: "_blank"
     images:
       - images/projects/differences-01.jpg
-      
-  # TNF Trailhead
-
-  # Audi A8 Experience iPad App
+      - images/projects/differences-02.jpg
+      - images/projects/differences-03.jpg
 
   # Audi Ironman 2
 
@@ -44,5 +72,19 @@ entries:
   # Audi "Barrells"
 
   # 8th Heaven Website
+#  - title: 8<sup><span style="font-size:12px;">th</span></sup> Heaven Website
+#    client: 8th Heaven
+#    agency: Grant Davis Interactive, LLC
+#    role: Designer, Developer
+#    tech: HTML/Javascript Frontend with a Wordpress powered backend using custom plugins.
+#    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+#    link:
+#      label: "view site"
+#      url: "http://www.8thheavenhorses.com"
+#      alt: "Click to view the site"
+#      target: "_blank"
+#    images:
+#      - images/projects/8th-heaven-01.jpg
+#      - images/projects/8th-heaven-02.jpg
 
   # Savoy Stables Website
