@@ -1,32 +1,20 @@
 entries:
   # TNF Snow Report
-  - title: The North Face<sup><span style="font-size:16px;">®</span></sup> Snow Report iPhone App
+  - title: The North Face<sup><span style="font-size:16px;">®</span></sup> Snow Report
     client: The North Face<sup><span style="font-size:10px;">®</span></sup>
     agency: Factory Design Labs
     role: Lead UI Developer
     tech: Objective-C
     details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
     link:
-      label: "download app"
+      label: "view in itunes"
       url: "http://itunes.store.com"
-      alt: "Click to view the site"
+      alt: "view in the itunes store"
       target: "_blank"
     images:
       - images/projects/snowreport-01.jpg
       - images/projects/snowreport-01.jpg
       - images/projects/snowreport-01.jpg
-
-  # TNF Trailhead
-
-  # Audi A8 Experience iPad App
-
-  # Audi Ironman 2
-
-  # myAudi
-
-  # Differences Website
-
-  # Audi "Barrells"
 
   # Differences Ski Configurator
   - title: Differences Ski Configurator
@@ -42,11 +30,19 @@ entries:
       target: "_blank"
     images:
       - images/projects/differences-01.jpg
-      - images/projects/differences-01.jpg
-      - images/projects/differences-01.jpg
-      - images/projects/differences-01.jpg
-      - images/projects/differences-01.jpg
-      - images/projects/differences-01.jpg
-      - images/projects/differences-01.jpg
-      - images/projects/differences-01.jpg
-      - images/projects/differences-01.jpg
+      
+  # TNF Trailhead
+
+  # Audi A8 Experience iPad App
+
+  # Audi Ironman 2
+
+  # myAudi
+
+  # Differences Website
+
+  # Audi "Barrells"
+
+  # 8th Heaven Website
+
+  # Savoy Stables Website

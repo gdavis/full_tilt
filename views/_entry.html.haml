@@ -27,39 +27,39 @@
   .bucket.text-center
     .gallery-menu
   .bucket
-    .project-details.left
-      %p
-        .info-label
-          %span.subhead client
-          %span.colon ::
-        .info-content
-          =data.client
-
-      %p
-        .info-label
-          %span.subhead agency
-          %span.colon ::
-        .info-content
-          =data.agency
-
-      %p
-        .info-label
-          %span.subhead role
-          %span.colon ::
-        .info-content
-          =data.role
-
-      %p
-        .info-label
-          %span.subhead tech
-          %span.colon ::
-        .info-content
-          =data.tech
-    .project-details.left
-      %p
-        .info-label
-          %span.subhead details
-          %span.colon ::
-        .info-content
-          =data.details
+    .project-details
+      .left-col.left
+        %table
+          %tr
+            %th
+              client
+              %span.colon ::
+            %td
+              = data.client
+          %tr
+            %th
+              agency
+              %span.colon ::
+            %td
+              = data.agency
+          %tr
+            %th
+              role
+              %span.colon ::
+            %td
+              = data.role
+          %tr
+            %th
+              tech
+              %span.colon ::
+            %td
+              = data.tech
+      .right-col.left
+        %table
+          %tr
+            %th
+              about
+              %span.colon ::
+            %td
+              = data.details
   .clear

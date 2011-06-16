@@ -79,7 +79,6 @@
 
         base.setIndex = function( $index ) {
             index = Math.max( 0, Math.min( total, $index ));
-            console.log('new index: ' + index );
             base.move();
             base.updateButtons();
         };
