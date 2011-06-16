@@ -107,7 +107,7 @@ html, body, ul, li, table, td, tr, th {
     /* line 88, ../../views/stylesheets/site.css.sass */
     #header .title .ext {
       vertical-align: 0;
-      position: absolute;
+      position: absolutea;
       top: 60px;
       left: 37px;
       font-size: 15px;
@@ -166,11 +166,10 @@ a.big-blue-button {
     position: relative;
     top: 3px;
     overflow: visible; }
-
-/* line 146, ../../views/stylesheets/site.css.sass */
-a.big-blue-button:hover {
-  text-decoration: none;
-  background-position: 0 -33px; }
+  /* line 146, ../../views/stylesheets/site.css.sass */
+  a.big-blue-button:hover {
+    text-decoration: none;
+    background-position: 0 -33px; }
 
 /* line 150, ../../views/stylesheets/site.css.sass */
 .project-details {

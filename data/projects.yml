@@ -64,6 +64,36 @@ entries:
       - images/projects/differences-03.jpg
 
   # Audi Ironman 2
+  - title: Audi Ironman 2 Website
+    client: Audi AG
+    agency: Factory Design Labs
+    role: Lead UI Developer
+    tech: Actionscript 3.0
+    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+#    link:
+#      label: "view site"
+#      url: "http://en.differences.li/skis-home/skis/custom-ski-configurator"
+#      alt: "Click to view the site"
+#      target: "_blank"
+    images:
+      - images/projects/ironman2-01.jpg
+      - images/projects/ironman2-02.jpg
+      - images/projects/ironman2-03.jpg
+
+  # Audi A8 Compare Tool
+#  - title: Audi A8 Online Compare Tool
+#    client: Audi AG
+#    agency: Factory Design Labs
+#    role: Lead UI Developer
+#    tech: HAML/HTML/CSS with Javascript with jQuery
+#    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+#    link:
+#      label: "view site"
+#      url: "http://models.audiusa.com/a8/compare"
+#      alt: "Click to view the site"
+#      target: "_blank"
+#    images:
+#      - images/projects/a8-compare-01.jpg
 
   # myAudi
 
