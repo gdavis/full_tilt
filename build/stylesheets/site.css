@@ -107,7 +107,7 @@ html, body, ul, li, table, td, tr, th {
     /* line 88, ../../views/stylesheets/site.css.sass */
     #header .title .ext {
       vertical-align: 0;
-      position: absolutea;
+      position: absolute;
       top: 60px;
       left: 37px;
       font-size: 15px;
