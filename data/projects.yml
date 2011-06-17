@@ -30,21 +30,20 @@ entries:
     images:
       - images/projects/snowreport-01.jpg
 
-  # Audi A8 Experience iPad App
-  - title: Audi A8 Experience iPad App
-    client: The North Face<sup>®</sup>
+  # Differences Website
+  - title: Differences Website
+    client: Differences AG
     agency: Factory Design Labs
-    role: Developer
-    tech: Objective-C
-    details: The A8 Experience iPad app lets you experience the features of the new Audi A8 on your iPad. Intially developed by Mutual Mobile in conjunction with Factory Design Labs, I led quality assurance, managed bug fixes, and added additional features after the initial development.
+    role: Lead UI Developer
+    tech: Ruby on Rails, HAML, SASS
+    details: Website for the ski manufacturing company, Differences. Lead the development of the frontend website experience using Ruby on Rails with HAML and SASS.
     link:
-      label: "view in iTunes"
-      url: "http://itunes.apple.com/us/app/audi-a8-experience/id401674171?mt=8"
+      label: "view site"
+      url: "http://www.differences.li"
       alt: "Click to view the site"
       target: "_blank"
     images:
-      - images/projects/a8-experience-01.jpg
-      - images/projects/a8-experience-02.jpg
+      - images/projects/differences-site-01.jpg
 
   # Differences Ski Configurator
   - title: Differences Ski Configurator
@@ -62,6 +61,22 @@ entries:
       - images/projects/differences-01.jpg
       - images/projects/differences-02.jpg
 
+  # Audi A8 Experience iPad App
+  - title: Audi A8 Experience iPad App
+    client: The North Face<sup>®</sup>
+    agency: Factory Design Labs
+    role: Developer
+    tech: Objective-C
+    details: The A8 Experience iPad app lets you experience the features of the new Audi A8 on your iPad. Intially developed by Mutual Mobile in conjunction with Factory Design Labs, I led quality assurance, managed bug fixes, and added additional features after the initial development.
+    link:
+      label: "view in iTunes"
+      url: "http://itunes.apple.com/us/app/audi-a8-experience/id401674171?mt=8"
+      alt: "Click to view the site"
+      target: "_blank"
+    images:
+      - images/projects/a8-experience-01.jpg
+      - images/projects/a8-experience-02.jpg
+
   # Audi Ironman 2
   - title: Audi Ironman 2 Website
     client: Audi AG
@@ -73,16 +88,6 @@ entries:
       - images/projects/ironman2-01.jpg
       - images/projects/ironman2-02.jpg
       - images/projects/ironman2-03.jpg
-
-  # Differences Website
-  - title: Differences Website
-    client: Differences AG
-    agency: Factory Design Labs
-    role: Lead UI Developer
-    tech: Ruby on Rails, HAML, SASS
-    details: Website for the ski manufacturing company, Differences. Lead the development of the frontend website experience using Ruby on Rails with HAML and SASS.
-    images:
-      - images/projects/differences-site-01.jpg
 
   # 8th Heaven Website
   - title: 8<sup><span style="font-size:12px;">th</span></sup> Heaven Website
