@@ -184,14 +184,14 @@ a.big-blue-button {
     vertical-align: top; }
   /* line 161, ../../views/stylesheets/site.css.sass */
   .project-details th {
-    width: 141px;
+    width: 98px;
     text-align: right; }
   /* line 165, ../../views/stylesheets/site.css.sass */
   .project-details .left-col {
-    width: 35%; }
+    width: 40%; }
   /* line 167, ../../views/stylesheets/site.css.sass */
   .project-details .right-col {
-    width: 65%; }
+    width: 60%; }
   /* line 170, ../../views/stylesheets/site.css.sass */
   .project-details .subhead {
     font-weight: bold; }
@@ -205,7 +205,7 @@ a.big-blue-button {
   position: relative;
   width: 1024px;
   height: 485px;
-  margin: 0 auto; }
+  margin: 0 auto 10 auto; }
   /* line 183, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .image-container {
     position: relative;
@@ -270,7 +270,7 @@ a.big-blue-button {
   /* line 244, ../../views/stylesheets/site.css.sass */
   .gallery-menu .dot {
     cursor: pointer;
-    margin: 20px 8px;
+    margin: 10px 8px;
     width: 9px;
     height: 9px;
     overflow: hidden;
