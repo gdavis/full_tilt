@@ -205,7 +205,7 @@ a.big-blue-button {
   position: relative;
   width: 1024px;
   height: 485px;
-  margin: 0 auto 10 auto; }
+  margin: 0 auto; }
   /* line 183, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .image-container {
     position: relative;
@@ -222,8 +222,9 @@ a.big-blue-button {
   .left-right-gallery img {
     display: block;
     border: 0;
-    outline: none; }
-  /* line 200, ../../views/stylesheets/site.css.sass */
+    outline: none;
+    margin-bottom: 10px; }
+  /* line 201, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .right-btn, .left-right-gallery .left-btn {
     position: absolute;
     width: 32px;
@@ -231,31 +232,31 @@ a.big-blue-button {
     top: 50%;
     margin-top: -18px;
     overflow: hidden; }
-  /* line 208, ../../views/stylesheets/site.css.sass */
+  /* line 209, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .disabled a, .left-right-gallery .disabled a:hover {
     cursor: default; }
-  /* line 211, ../../views/stylesheets/site.css.sass */
+  /* line 212, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .disabled.right-btn img, .left-right-gallery .disabled.left-btn img, .left-right-gallery .disabled.right-btn img:hover, .left-right-gallery .disabled.left-btn img:hover {
     margin-top: -62px; }
-  /* line 214, ../../views/stylesheets/site.css.sass */
+  /* line 215, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .right-btn img:hover, .left-right-gallery .left-btn img:hover {
     margin-top: -31px; }
-  /* line 217, ../../views/stylesheets/site.css.sass */
+  /* line 218, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .left-btn {
     left: 5px; }
-  /* line 220, ../../views/stylesheets/site.css.sass */
+  /* line 221, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .right-btn {
     right: 5px; }
 
-/* line 225, ../../views/stylesheets/site.css.sass */
+/* line 226, ../../views/stylesheets/site.css.sass */
 .js-enabled .left-right-gallery .gallery-images {
   position: absolute; }
-/* line 228, ../../views/stylesheets/site.css.sass */
+/* line 229, ../../views/stylesheets/site.css.sass */
 .js-enabled .left-right-gallery .gallery-images li {
   float: left;
   width: 920px;
   overflow: hidden; }
-/* line 233, ../../views/stylesheets/site.css.sass */
+/* line 234, ../../views/stylesheets/site.css.sass */
 .js-enabled .left-right-gallery .gallery-controls {
   position: absolute;
   display: block;
@@ -263,11 +264,11 @@ a.big-blue-button {
   left: 0;
   width: 100%; }
 
-/* line 240, ../../views/stylesheets/site.css.sass */
+/* line 241, ../../views/stylesheets/site.css.sass */
 .gallery-menu {
   display: inline-block;
   margin: 0 auto; }
-  /* line 244, ../../views/stylesheets/site.css.sass */
+  /* line 245, ../../views/stylesheets/site.css.sass */
   .gallery-menu .dot {
     cursor: pointer;
     margin: 10px 8px;
@@ -276,7 +277,7 @@ a.big-blue-button {
     overflow: hidden;
     float: left;
     background: url("../images/dot.gif") no-repeat top left; }
-  /* line 253, ../../views/stylesheets/site.css.sass */
+  /* line 254, ../../views/stylesheets/site.css.sass */
   .gallery-menu .dot.active {
     cursor: default;
     background-position: 0 -9px; }
