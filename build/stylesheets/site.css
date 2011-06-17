@@ -124,27 +124,30 @@ html, body, ul, li, table, td, tr, th {
 
 /* line 105, ../../views/stylesheets/site.css.sass */
 #footer {
+  padding: 20px;
   font-size: 12px;
+  line-height: 14px;
   text-align: center;
+  min-height: 0;
   color: #999999; }
 
-/* line 110, ../../views/stylesheets/site.css.sass */
+/* line 113, ../../views/stylesheets/site.css.sass */
 .project_header {
   min-height: 65px;
   line-height: 65px;
   text-align: left;
   background: url("../images/section-div-gradient.gif") repeat-x; }
-  /* line 116, ../../views/stylesheets/site.css.sass */
+  /* line 119, ../../views/stylesheets/site.css.sass */
   .project_header .project_title {
     font-size: 28px; }
 
-/* line 119, ../../views/stylesheets/site.css.sass */
+/* line 122, ../../views/stylesheets/site.css.sass */
 .bucket {
   width: 889px;
   margin: 0 auto;
   position: relative; }
 
-/* line 124, ../../views/stylesheets/site.css.sass */
+/* line 127, ../../views/stylesheets/site.css.sass */
 a.big-blue-button {
   height: 33px;
   position: absolute;
@@ -157,7 +160,7 @@ a.big-blue-button {
   -webkit-box-shadow: 2px 2px 2px #999999;
   box-shadow: 2px 2px 2px #999999;
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=130, Color='#999999')"; }
-  /* line 137, ../../views/stylesheets/site.css.sass */
+  /* line 140, ../../views/stylesheets/site.css.sass */
   a.big-blue-button div {
     font-size: 28px;
     line-height: 1px;
@@ -166,47 +169,47 @@ a.big-blue-button {
     position: relative;
     top: 3px;
     overflow: visible; }
-  /* line 146, ../../views/stylesheets/site.css.sass */
+  /* line 149, ../../views/stylesheets/site.css.sass */
   a.big-blue-button:hover {
     text-decoration: none;
     background-position: 0 -33px; }
 
-/* line 150, ../../views/stylesheets/site.css.sass */
+/* line 153, ../../views/stylesheets/site.css.sass */
 .project-details {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   position: relative;
   margin: 0 auto 30px auto;
   float: left; }
-  /* line 157, ../../views/stylesheets/site.css.sass */
+  /* line 160, ../../views/stylesheets/site.css.sass */
   .project-details tr {
     height: 24px;
     vertical-align: top; }
-  /* line 161, ../../views/stylesheets/site.css.sass */
+  /* line 164, ../../views/stylesheets/site.css.sass */
   .project-details th {
     width: 98px;
     text-align: right; }
-  /* line 165, ../../views/stylesheets/site.css.sass */
+  /* line 168, ../../views/stylesheets/site.css.sass */
   .project-details .left-col {
     width: 40%; }
-  /* line 167, ../../views/stylesheets/site.css.sass */
+  /* line 170, ../../views/stylesheets/site.css.sass */
   .project-details .right-col {
     width: 60%; }
-  /* line 170, ../../views/stylesheets/site.css.sass */
+  /* line 173, ../../views/stylesheets/site.css.sass */
   .project-details .subhead {
     font-weight: bold; }
-  /* line 173, ../../views/stylesheets/site.css.sass */
+  /* line 176, ../../views/stylesheets/site.css.sass */
   .project-details .colon {
     color: #999999;
     padding-right: 5px; }
 
-/* line 177, ../../views/stylesheets/site.css.sass */
+/* line 180, ../../views/stylesheets/site.css.sass */
 .left-right-gallery {
   position: relative;
   width: 1024px;
   height: 485px;
   margin: 0 auto; }
-  /* line 183, ../../views/stylesheets/site.css.sass */
+  /* line 186, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .image-container {
     position: relative;
     left: 0;
@@ -215,16 +218,16 @@ a.big-blue-button {
     width: 919px;
     height: 485px;
     margin: 0 auto; }
-  /* line 192, ../../views/stylesheets/site.css.sass */
+  /* line 195, ../../views/stylesheets/site.css.sass */
   .left-right-gallery ul {
     list-style: none; }
-  /* line 195, ../../views/stylesheets/site.css.sass */
+  /* line 198, ../../views/stylesheets/site.css.sass */
   .left-right-gallery img {
     display: block;
     border: 0;
     outline: none;
     margin-bottom: 10px; }
-  /* line 201, ../../views/stylesheets/site.css.sass */
+  /* line 204, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .right-btn, .left-right-gallery .left-btn {
     position: absolute;
     width: 32px;
@@ -232,31 +235,31 @@ a.big-blue-button {
     top: 50%;
     margin-top: -18px;
     overflow: hidden; }
-  /* line 209, ../../views/stylesheets/site.css.sass */
+  /* line 212, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .disabled a, .left-right-gallery .disabled a:hover {
     cursor: default; }
-  /* line 212, ../../views/stylesheets/site.css.sass */
+  /* line 215, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .disabled.right-btn img, .left-right-gallery .disabled.left-btn img, .left-right-gallery .disabled.right-btn img:hover, .left-right-gallery .disabled.left-btn img:hover {
     margin-top: -62px; }
-  /* line 215, ../../views/stylesheets/site.css.sass */
+  /* line 218, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .right-btn img:hover, .left-right-gallery .left-btn img:hover {
     margin-top: -31px; }
-  /* line 218, ../../views/stylesheets/site.css.sass */
+  /* line 221, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .left-btn {
     left: 5px; }
-  /* line 221, ../../views/stylesheets/site.css.sass */
+  /* line 224, ../../views/stylesheets/site.css.sass */
   .left-right-gallery .right-btn {
     right: 5px; }
 
-/* line 226, ../../views/stylesheets/site.css.sass */
+/* line 229, ../../views/stylesheets/site.css.sass */
 .js-enabled .left-right-gallery .gallery-images {
   position: absolute; }
-/* line 229, ../../views/stylesheets/site.css.sass */
+/* line 232, ../../views/stylesheets/site.css.sass */
 .js-enabled .left-right-gallery .gallery-images li {
   float: left;
   width: 920px;
   overflow: hidden; }
-/* line 234, ../../views/stylesheets/site.css.sass */
+/* line 237, ../../views/stylesheets/site.css.sass */
 .js-enabled .left-right-gallery .gallery-controls {
   position: absolute;
   display: block;
@@ -264,11 +267,11 @@ a.big-blue-button {
   left: 0;
   width: 100%; }
 
-/* line 241, ../../views/stylesheets/site.css.sass */
+/* line 244, ../../views/stylesheets/site.css.sass */
 .gallery-menu {
   display: inline-block;
   margin: 0 auto; }
-  /* line 245, ../../views/stylesheets/site.css.sass */
+  /* line 248, ../../views/stylesheets/site.css.sass */
   .gallery-menu .dot {
     cursor: pointer;
     margin: 10px 8px;
@@ -277,7 +280,7 @@ a.big-blue-button {
     overflow: hidden;
     float: left;
     background: url("../images/dot.gif") no-repeat top left; }
-  /* line 254, ../../views/stylesheets/site.css.sass */
+  /* line 257, ../../views/stylesheets/site.css.sass */
   .gallery-menu .dot.active {
     cursor: default;
     background-position: 0 -9px; }
