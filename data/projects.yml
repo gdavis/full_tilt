@@ -3,9 +3,9 @@ entries:
   - title: The North Face<sup><span style="font-size:12px;">®</span></sup> Trailhead iPhone App
     client: The North Face<sup><span style="font-size:10px;">®</span></sup>
     agency: Factory Design Labs
-    role: Lead UI Developer
+    role: Lead Developer
     tech: Objective-C
-    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+    details: The TNF Trailhead app allows users to find local trails, record their own, and share with their friends. Powered by Everytrail.com, you can track your trail distance, speed, distance, and elevation in real-time.
     link:
       label: "view in itunes"
       url: "http://itunes.apple.com/us/app/trailhead/id380841551?mt=8"
@@ -19,9 +19,9 @@ entries:
   - title: The North Face<sup><span style="font-size:12px;">®</span></sup> Snow Report iPhone App
     client: The North Face<sup><span style="font-size:10px;">®</span></sup>
     agency: Factory Design Labs
-    role: Lead UI Developer
-    tech: Objective-C
-    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+    role: Lead Developer
+    tech: Objective-C, Ruby on Rails
+    details: The Snow Report is the one stop iPhone app to get snow conditions, weather forcasts, trail maps, and other details for resorts across the world. I began working on the 2.0 version of the application, where I led the a major overhaul to the application structure and added additional social networking features.
     link:
       label: "view in itunes"
       url: "http://itunes.apple.com/us/app/the-snow-report/id297613771?mt=8"
@@ -34,9 +34,9 @@ entries:
   - title: Audi A8 Experience iPad App
     client: The North Face<sup>®</sup>
     agency: Factory Design Labs
-    role: Lead UI Developer
+    role: Developer
     tech: Objective-C
-    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+    details: The A8 Experience iPad app lets you experience the features of the new Audi A8 on your iPad. Intially developed by Mutual Mobile in conjunction with Factory Design Labs, I led quality assurance, managed bug fixes, and added additional features after the initial development.
     link:
       label: "view in iTunes"
       url: "http://itunes.apple.com/us/app/audi-a8-experience/id401674171?mt=8"
@@ -52,7 +52,7 @@ entries:
     agency: Factory Design Labs
     role: Lead UI Developer
     tech: Actionscript 3.0 using the Away3D library
-    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
+    details: The Differences Ski Configurator allows users to customize their own set of skis using a provided graphics library, or by uploading their own images. A customer can then send their design to the Differences shop and work with a representative to bring their design to life.
     link:
       label: "view site"
       url: "http://en.differences.li/skis-home/skis/custom-ski-configurator"
@@ -61,60 +61,43 @@ entries:
     images:
       - images/projects/differences-01.jpg
       - images/projects/differences-02.jpg
-      - images/projects/differences-03.jpg
 
   # Audi Ironman 2
   - title: Audi Ironman 2 Website
     client: Audi AG
     agency: Factory Design Labs
     role: Lead UI Developer
-    tech: Actionscript 3.0
-    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
-#    link:
-#      label: "view site"
-#      url: "http://en.differences.li/skis-home/skis/custom-ski-configurator"
-#      alt: "Click to view the site"
-#      target: "_blank"
+    tech: Actionscript 3.0, Ruby on Rails, Facebook API
+    details: For the release of the Ironman 2 movie, Audi AG commissioned Factory Design Labs to create a website featuring Audi and Ironman partnership. The website brought users into the home of Tony Stark to explore the technology of both the Audi A8 and Ironman. The website uses a combination of CG and 3D assets to integrate the user interface into Tony Stark's home for an immersive experience.
     images:
       - images/projects/ironman2-01.jpg
       - images/projects/ironman2-02.jpg
       - images/projects/ironman2-03.jpg
 
-  # Audi A8 Compare Tool
-#  - title: Audi A8 Online Compare Tool
-#    client: Audi AG
-#    agency: Factory Design Labs
-#    role: Lead UI Developer
-#    tech: HAML/HTML/CSS with Javascript with jQuery
-#    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
-#    link:
-#      label: "view site"
-#      url: "http://models.audiusa.com/a8/compare"
-#      alt: "Click to view the site"
-#      target: "_blank"
-#    images:
-#      - images/projects/a8-compare-01.jpg
-
-  # myAudi
-
   # Differences Website
-
-  # Audi "Barrells"
+  - title: Differences Website
+    client: Differences AG
+    agency: Factory Design Labs
+    role: Lead UI Developer
+    tech: Ruby on Rails, HAML, SASS
+    details: Website for the ski manufacturing company, Differences. Lead the development of the frontend website experience using Ruby on Rails with HAML and SASS.
+    images:
+      - images/projects/differences-site-01.jpg
 
   # 8th Heaven Website
-#  - title: 8<sup><span style="font-size:12px;">th</span></sup> Heaven Website
-#    client: 8th Heaven
-#    agency: Grant Davis Interactive, LLC
-#    role: Designer, Developer
-#    tech: HTML/Javascript Frontend with a Wordpress powered backend using custom plugins.
-#    details: Bacon ipsum dolor sit amet deserunt beef ribs occaecat, quis t-bone andouille fatback tail bacon shoulder. Id headcheese do, ground round elit pork chop deserunt pastrami chuck reprehenderit tail ut pork.
-#    link:
-#      label: "view site"
-#      url: "http://www.8thheavenhorses.com"
-#      alt: "Click to view the site"
-#      target: "_blank"
-#    images:
-#      - images/projects/8th-heaven-01.jpg
-#      - images/projects/8th-heaven-02.jpg
+  - title: 8<sup><span style="font-size:12px;">th</span></sup> Heaven Website
+    client: 8th Heaven
+    agency: Grant Davis Interactive, LLC
+    role: Designer, Developer
+    tech: Photoshop, HTML, Javascript, PHP, Actionscript 3.0
+    details: In 2010, I was commissioned to design and develop a new website for 8th Heaven that would be built upon a backend that would be easily maintainable for their staff. The site is built upon Wordpress using several custom plugins to manage the sales, clinics, and events at 8th Heaven.
+    link:
+      label: "view site"
+      url: "http://www.8thheavenhorses.com"
+      alt: "Click to view the site"
+      target: "_blank"
+    images:
+      - images/projects/8th-heaven-01.jpg
+      - images/projects/8th-heaven-02.jpg
 
   # Savoy Stables Website
