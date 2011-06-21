@@ -1,0 +1,3 @@
+#projects
+  - data.private['entries'].each do |entry|
+    = render '_entry.html.haml', :locals => { :data => entry }
