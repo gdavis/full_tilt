@@ -6,7 +6,8 @@
     / Always force latest IE rendering engine (even in intranet) & Chrome Frame
     %meta{ :content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible" }
 
-    / Comment in layout
+    / fav icon
+    %link{ :rel => "shortcut icon", :href => "/favicon.ico" }
 
     = stylesheet_link_tag "site.css"
 
@@ -34,9 +35,7 @@
           $('#frame').addClass('js-enabled');
       #header.bucket
         .title
-          %span.helvetica grant
-          %span.helvetica-bold davis
-          %span.helvetica-bold.ext INTERACTIVE
+          %img{ :src => '/images/gdi-logo.jpg', :alt => "Grant Davis Interactive, LLC" }
         .info.tw-cen-mt
           %a{ :href => "media/pdf/Grant-Davis.pdf", :target => "_blank"} resume
           %span ::

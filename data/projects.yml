@@ -30,6 +30,37 @@ entries:
     images:
       - images/projects/snowreport-01.jpg
 
+  # Audi A7 Experience iPad App
+  - title: Audi A7 Experience iPad App
+    client: Audi of America
+    agency: Factory Design Labs
+    role: Lead UI Developer
+    tech: Objective-C, HTML/CSS, Javascript
+    details: The A7 Experience iPad app allows users to engage with and explore the new Audi A7. With the A7 Experience app you can configure colors, wheel options, learn about safety features, technology and more.
+    link:
+      label: "view in iTunes"
+      url: "http://itunes.apple.com/us/app/audi-a7-experience/id444206064?mt=8"
+      alt: "Click to view the site"
+      target: "_blank"
+    images:
+      - images/projects/a7-experience-01.jpg
+
+  # Audi A8 Experience iPad App
+  - title: Audi A8 Experience iPad App
+    client: Audi of America
+    agency: Factory Design Labs
+    role: Developer
+    tech: Objective-C
+    details: The A8 Experience iPad app lets you experience the features of the new Audi A8 on your iPad. Intially developed by Mutual Mobile in conjunction with Factory Design Labs, I led quality assurance, managed bug fixes, and added additional features after the initial development.
+    link:
+      label: "view in iTunes"
+      url: "http://itunes.apple.com/us/app/audi-a8-experience/id401674171?mt=8"
+      alt: "Click to view the site"
+      target: "_blank"
+    images:
+      - images/projects/a8-experience-01.jpg
+      - images/projects/a8-experience-02.jpg
+
   # Differences Website
   - title: Differences Website
     client: Differences AG
@@ -61,21 +92,22 @@ entries:
       - images/projects/differences-01.jpg
       - images/projects/differences-02.jpg
 
-  # Audi A8 Experience iPad App
-  - title: Audi A8 Experience iPad App
+  # Audi S5 Microsite
+  - title: Audi S5 Microsite
     client: Audi of America
     agency: Factory Design Labs
-    role: Developer
-    tech: Objective-C
-    details: The A8 Experience iPad app lets you experience the features of the new Audi A8 on your iPad. Intially developed by Mutual Mobile in conjunction with Factory Design Labs, I led quality assurance, managed bug fixes, and added additional features after the initial development.
+    role: Lead UI Developer
+    tech: Actionscript 3.0
+    details: In 2007, Audi tasked Factory Design Labs to build a microsite for the new Audi S5. As the only developer on the project, I worked closely with designers and video editors to create a compelling experience for the S5 with a mix of video and flash animation.
     link:
-      label: "view in iTunes"
-      url: "http://itunes.apple.com/us/app/audi-a8-experience/id401674171?mt=8"
+      label: "view archived site"
+      url: "/projects/s5/index.html"
       alt: "Click to view the site"
       target: "_blank"
     images:
-      - images/projects/a8-experience-01.jpg
-      - images/projects/a8-experience-02.jpg
+      - images/projects/s5-01.jpg
+      - images/projects/s5-02.jpg
+      - images/projects/s5-03.jpg
 
   # Audi Ironman 2
   - title: Audi Ironman 2 Website
@@ -104,5 +136,3 @@ entries:
     images:
       - images/projects/8th-heaven-01.jpg
       - images/projects/8th-heaven-02.jpg
-
-  # Savoy Stables Website
