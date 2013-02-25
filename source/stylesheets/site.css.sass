@@ -1,0 +1,246 @@
+@import "compass"
+
+$font-color:         #000
+$link-color:         #000
+$link-hover-color:   #000
+$link-focus-color:   $link-color
+$link-active-color:  $link-hover-color
+$link-visited-color: $link-color
+
+$gallery-width:                 920px
+$gallery-height:                485px
+$image-height:                  485px
+$details-font-family:           'Arial', sans-serif
+$tw-cen-mt-font-family:         'TwCenMT'
+
+a
+  text-decoration: none
+  +link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color)
+
+a:hover
+  color: #ff6100
+
+sup, sub
+  vertical-align: 0
+  position: relative
+
+sup
+  bottom: 1ex
+
+sub
+  top: .8ex
+  
+
+.left
+  float: left
+.right
+  float: right
+.clear
+  clear: both
+
+.text-left
+  text-align: left
+.text-right
+  text-align: right
+.text-center
+  text-align: center
+
+
+.tw-cen-mt
+  font-family: $tw-cen-mt-font-family
+.tw-cen-mt-bold
+  font-weight: bold
+
+.helvetica, .helvetica-bold
+  font-family: HelveticaNeue, Helvetica, Arial, san-serif
+.helvetica-bold
+  font-weight: bold
+
+html, body, ul, li, table, td, tr, th
+  font-family: Arial, san-serif
+  font-size: 14px
+  line-height: 16px
+  padding: 0
+  margin: 0
+
+#frame
+  width: 100%
+  
+#container
+  width: 1024px
+  margin: 0 auto
+
+#header
+  width: 920px
+  margin: 0 auto
+  height: 153px
+  font-size: 72px
+  position: relative
+
+  .title
+    margin-left: 10px
+
+  .info
+    font-size: 16px
+    position: absolute
+    top: 85px
+    right: 15px
+
+    span
+      color: #999
+
+#footer
+  padding: 20px
+  font-size: 12px
+  line-height: 14px
+  text-align: center
+  min-height: 0
+  color: #999
+
+.project_header
+  min-height: 65px
+  line-height: 65px
+  text-align: left
+  background: url("../images/section-div-gradient.gif") repeat-x
+
+  .project_title
+    font-size: 28px
+
+.bucket
+  width: 889px
+  margin: 0 auto
+  position: relative
+
+a.big-blue-button
+  height: 33px
+  position: absolute
+  top: 16px
+  right: 0
+  padding: 0 8px 0 5px
+  color: #fff
+  background: url("../images/button-bg.gif") repeat-x
+  -moz-box-shadow: 2px 2px 2px #999
+  -webkit-box-shadow: 2px 2px 2px #999
+  box-shadow: 2px 2px 2px #999
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=130, Color='#999999')"
+
+  div
+    font-size: 28px
+    line-height: 1px
+    float: left
+    height: 33px
+    position: relative
+    top: 3px
+    overflow: visible
+
+  &:hover
+    text-decoration: none
+    background-position: 0 -33px
+
+.project-details
+  font-family: $details-font-family
+  font-size: 14px
+  position: relative
+  margin: 0 auto 30px auto
+  float: left
+
+  tr
+    height: 24px
+    vertical-align: top
+
+  th
+    width: 98px
+    text-align: right
+
+  .left-col
+    width: 40%
+  .right-col
+    width: 60%
+
+  .subhead
+    font-weight: bold
+
+  .colon
+    color: #999
+    padding-right: 5px
+
+.left-right-gallery
+  position: relative
+  width: 1024px
+  height: $gallery-height
+  margin: 0 auto
+
+  .image-container
+    position: relative
+    left: 0
+    top: 0
+    overflow: hidden
+    width: 919px
+    height: $image-height
+    margin: 0 auto
+
+  ul
+    list-style: none
+
+  img
+    display: block
+    border: 0
+    outline: none
+    margin-bottom: 10px
+   
+  .right-btn, .left-btn
+    position: absolute
+    width: 32px
+    height: 31px
+    top: 50%
+    margin-top: -18px
+    overflow: hidden
+
+  .disabled a, .disabled a:hover
+    cursor: default
+    
+  .disabled.right-btn img, .disabled.left-btn img, .disabled.right-btn img:hover, .disabled.left-btn img:hover
+    margin-top: -62px
+
+  .right-btn img:hover, .left-btn img:hover
+    margin-top: -31px
+
+  .left-btn
+    left: 5px
+
+  .right-btn
+    right: 5px
+
+.js-enabled .left-right-gallery
+
+  .gallery-images
+    position: absolute
+
+  .gallery-images li
+    float: left
+    width: $gallery-width
+    overflow: hidden
+
+  .gallery-controls
+    position: absolute
+    display: block
+    top: 0
+    left: 0
+    width: 100%
+
+.gallery-menu
+  display: inline-block
+  margin: 0 auto
+
+  .dot
+    cursor: pointer
+    margin: 10px 8px
+    width: 9px
+    height: 9px
+    overflow: hidden
+    float: left
+    background: url("../images/dot.gif") no-repeat top left
+
+  .dot.active
+    cursor: default
+    background-position: 0 -9px

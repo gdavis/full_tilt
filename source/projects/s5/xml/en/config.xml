@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<data>
+	<config
+		STAGE_WIDTH = "960"
+		STAGE_HEIGHT = "625"
+		STAGE_ALIGN = "TOP"
+		STAGE_PADDING = "0,0,0,0"
+		CSS_PATH = "css/en/as3.css"
+		XML_DIR = "xml/en/"
+		NAV_PATH = "xml/en/navigation.xml"
+		AUDIO_XML_PATH = "xml/en/audio.xml"
+		APP_DIR = "php/data.php?"
+		JS_DIR = "js/en/"
+		MEDIA_DIR = "media/"
+		HISTORY_FILE = "history/history.html?"
+		IS_DEV = "true"
+		SHOW_TRANSITIONS = "true"
+		FONTS_PATH = "media/fonts/"
+		FONT_LIST = "_AudiSansRoman.swf,_AudiSansExtBold.swf,_AudiSansBold.swf"
+		BASE_URL = "http://www.audiusa.com/"
+		NAME_SPACE = "com.audi.s5"
+	>
+	</config>
+	<settings>
+		<background>media/swf/city_background.swf</background>
+		<disclaimer><![CDATA[2008 European Model Shown]]></disclaimer>
+	</settings>
+</data>

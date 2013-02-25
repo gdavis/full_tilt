@@ -1,0 +1,13 @@
+- content_for :head do
+  %title grant davis interactive
+  :javascript
+    $(document).ready(function() {
+      var galleryContainers = $('.left-right-gallery');
+      galleryContainers.each(function( $index, $el ){
+        var gallery = new $.LeftRightGallery( $el, 920, 485 );
+        new $.GalleryMenu( $( '.gallery-menu', $($el).parent() ).get(0), gallery );
+      });
+    });
+#projects
+  - data.projects['entries'].each do |entry|
+    = partial 'entry.html.haml', :locals => { :data => entry }

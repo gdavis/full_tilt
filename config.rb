@@ -1,57 +1,79 @@
-# CodeRay syntax highlighting in Haml
-# activate :code_ray
+###
+# Compass
+###
 
-# Automatic sitemaps (gem install middleman-slickmap)
-# require "middleman-slickmap"
-# activate :slickmap
+# Susy grids in Compass
+# First: gem install susy
+# require 'susy'
 
-# Automatic image dimension calculations
-# activate :automatic_image_sizes
+# Change Compass configuration
+# compass_config do |config|
+#   config.output_style = :compact
+# end
 
-# Per-page layout changes
+###
+# Page options, layouts, aliases and proxies
+###
+
+# Per-page layout changes:
+#
 # With no layout
 # page "/path/to/file.html", :layout => false
+#
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
+#
+# A path which all have the same layout
+# with_layout :admin do
+#   page "/admin/*"
+# end
 
-require 'yaml'
+# Proxy (fake) files
+# page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
+#   @which_fake_page = "Rendering a fake page with a variable"
+# end
+
+###
 # Helpers
-helpers do
-  def some_helper(*args)
-    "Helping"
-  end
-end
+###
 
-# Change the CSS directory
-# set :css_dir, "alternative_css_directory"
+# Automatic image dimensions on image_tag helper
+# activate :automatic_image_sizes
 
-# Change the JS directory
-# set :js_dir, "alternative_js_directory"
+# Methods defined in the helpers block are available in templates
+# helpers do
+#   def some_helper
+#     "Helping"
+#   end
+# end
 
-# Change the images directory
-# set :images_dir, "alternative_image_directory"
+require "yaml"
+
+set :css_dir, 'stylesheets'
+
+set :js_dir, 'javascripts'
+
+set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
   # activate :minify_css
-  
+
   # Minify Javascript on build
   # activate :minify_javascript
-  
+
   # Enable cache buster
   # activate :cache_buster
-  
+
   # Use relative URLs
   # activate :relative_assets
-  
-  # Compress PNGs after build (gem install middleman-smusher)
+
+  # Compress PNGs after build
+  # First: gem install middleman-smusher
   # require "middleman-smusher"
   # activate :smusher
 
-  # Generate ugly/obfuscated HTML from Haml
-  # activate :ugly_haml
-  
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end

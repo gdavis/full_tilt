@@ -1,0 +1,160 @@
+/**
+ *	Application CSS:
+ *
+ *	Available Font Families:
+ *		SansBold = Helvetica 75 Bold
+ *
+ *	Available Text Properties:
+ *		font-family:NameOfFont (Library symbol);
+ *		font-size:12px;
+ *		color:#333333;
+ *		letter-spacing:50px;
+ *		text-align: left, center or right;
+ *		text-decoration:none or underline;
+ *		text-indent:20px;
+ */
+
+
+/* HTML HYPERLINK .................................................................... */
+
+a:link
+{
+	color:#cc6633;	
+}
+a:visited
+{
+	color:#663300;
+}
+a:active
+{
+	color:#cc3300;
+	textDecoration:"none";
+}
+a:hover
+{
+	color:#ff9900;
+	textDecoration:"underline";
+}
+
+/* HTML COPY .................................................................... */
+
+.title
+{
+	font-family: _AudiSansExtBold;
+	font-size:14px;
+	text-align:left;
+	color:#FFFFFF;
+}
+
+.subhead
+{
+	font-family: _AudiSansExtBold;
+	font-size:11px;
+	text-align:left;
+	color:#FFFFFF;
+}
+
+.copy
+{
+	font-family: _AudiSansBold;
+	font-size:10px;
+	text-align:left;
+	leading:3px;
+	color:#FFFFFF;
+}
+
+.disclaimer
+{
+	font-family: _AudiSansBold;
+	font-size:10px;
+	text-align:center;
+	color:#3a3634;
+}
+
+.loader
+{
+	font-family:_AudiSansExtBold;
+	font-size:8px;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+
+/* Button Styles .................................................................... */
+
+.mainNavButton
+{
+	font-family:_AudiSansExtBold;
+	font-weight:bold;
+	font-size:10px;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.utilNavButton
+{
+	font-family: _AudiSansBold;
+	font-size:10px;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.calloutButton
+{
+	font-family: _AudiSansBold;
+	font-size:10px;
+	text-align:left;
+	color:#FFFFFF;
+}
+
+.downloadsTextbutton
+{
+	font-family: _AudiSansRoman;
+	font-size:10px;
+	text-align:left;
+	color:#FFFFFF;
+}
+
+.closeButton
+{
+	font-family:_AudiSansBold;
+	font-size:10px;
+	color:#ffffff;
+}
+
+/* FORM STYLES .......................................................................*/
+
+
+.formHeader
+{
+  font-family:_AudiSansExtBold;
+  font-size:25px;
+  color:#ffffff;
+}
+
+.formBody
+{
+  font-family:_AudiSansBold;
+  font-size:12px;
+  color:#ffffff;
+}
+
+/* CONFIGURATOR STYLES ...............................................................*/
+
+.configSubHead
+{
+	font-family:_AudiSansExtBold;
+	font-weight:bold;
+	font-size:9px;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.tooltipText
+{
+  font-family:_AudiSansExtBold;
+	font-weight:bold;
+	font-size:9px;
+	text-align:center;
+	color:#ffffff;
+}

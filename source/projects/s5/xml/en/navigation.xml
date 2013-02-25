@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation>
+	<node friendlyUrl="HIDDEN NAV">
+		<subNodes>
+			<node friendlyUrl="home">
+	            <title><![CDATA[Home]]></title>
+				<controller type="main">homearea</controller>
+				<dataPath allowCache="true">xml/en/home.xml</dataPath>
+				<useHistory value="false"></useHistory>
+	            <useTracking value="false"></useTracking>
+	            <properties>
+	            	<nextArea>design</nextArea>
+	            </properties>
+	            <subNodes></subNodes>
+			</node>
+			<node friendlyUrl="nullarea">
+	            <title><![CDATA[Null Area]]></title>
+				<controller type="main">nullareacontroller</controller>
+				<dataPath allowCache="false"></dataPath>
+				<useHistory value="false"></useHistory>
+	            <useTracking value="false"></useTracking>
+	            <properties></properties>
+	            <subNodes></subNodes>
+			</node>
+			<node friendlyUrl="configurator">
+				<dataPath allowCache="false">xml/en/configurator.xml</dataPath>
+			</node>
+		</subNodes>
+	</node>
+	
+	<node friendlyUrl="UTIL NAV">
+		<!--
+		<subNodes>
+			<node friendlyUrl="audiusa">
+	            <title><![CDATA[AudiUSA.com]]></title>
+				<controller type="url"></controller>
+				<dataPath allowCache="true"></dataPath>
+				<useHistory value="false"></useHistory>
+	            <useTracking value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > AudiUSA.com]]></useTracking>
+	            <properties>
+	            	<link>http://www.audiusa.com/</link>
+	           	 	<window>_blank</window>
+	            </properties>
+	            <subNodes></subNodes>
+			</node>
+		</subNodes>
+		-->
+		<subNodes>
+			<node friendlyUrl="dataprotection">
+	            <title><![CDATA[Data Protection]]></title>
+				<controller type="javascript"></controller>
+				<dataPath allowCache="true"></dataPath>
+				<useHistory value="false"></useHistory>
+	            <useTracking value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > Data Protection]]></useTracking>
+	            <properties>
+	            	<function>dataProtectionBlack</function>
+	           	 	<arguments></arguments>
+	            </properties>
+	            <subNodes></subNodes>
+			</node>
+		</subNodes>
+	</node>
+
+	<node friendlyUrl="MAIN NAV">
+		<subNodes>
+		    <node friendlyUrl="build">
+	            <title><![CDATA[Build Your S5]]></title>
+				<controller type="main">configuratorarea</controller>
+				<dataPath allowCache="false"></dataPath>
+				<useHistory value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > Build Your S5]]></useHistory>
+         		<useTracking value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > Build Your S5]]></useTracking>
+	            <properties>
+	           		 <style>light</style>
+	            </properties>
+			</node>
+		    <node friendlyUrl="design">
+	            <title><![CDATA[Design]]></title>
+				<controller type="main">calloutarea</controller>
+				<dataPath allowCache="true">xml/en/design.xml</dataPath>
+				<useHistory value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > Design]]></useHistory>
+	            <useTracking value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > Design]]></useTracking>
+	            <properties>
+	            	<style>light</style>
+	            </properties>
+				<subNodes>
+				</subNodes>	
+			</node>
+			<node friendlyUrl="technology">
+	            <title><![CDATA[Technology]]></title>
+				<controller type="main">calloutarea</controller>
+				<dataPath allowCache="true">xml/en/technology.xml</dataPath>
+				<useHistory value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > Technology]]></useHistory>
+	            <useTracking value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > Technology]]></useTracking>
+	            <properties>
+	           		 <style>light</style>
+	            </properties>
+				<subNodes>
+				</subNodes>	
+			</node>
+			<node friendlyUrl="downloads">
+	            <title><![CDATA[Downloads]]></title>
+				<controller type="window">downloadarea</controller>
+				<dataPath allowCache="true">xml/en/downloads.xml</dataPath>
+				<useHistory value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > Downloads]]></useHistory>
+         		<useTracking value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > Downloads]]></useTracking>
+	            <properties>
+	           		 <style>dark</style>
+	            </properties>
+			</node>
+			
+			<node friendlyUrl="connect-with-audi">
+	            <title><![CDATA[Connect with Audi]]></title>
+				<controller type="formpop"></controller>
+				<dataPath allowCache="true"></dataPath>
+				<useHistory value="false"></useHistory>
+         		<useTracking value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > Connect with Audi]]></useTracking>
+	            <properties>
+	            	<link>http://microsites.audiusa.com/truth/connect.html</link>
+	            	<params>width=858,height=492,status=0,toolbar=0,menubar=0,location=0,scrollbars=0,resizable=0</params>
+	           		 <style>dark</style>
+	            </properties>
+			</node>
+			<!-- popup window way
+			<node friendlyUrl="connect-with-audi">
+	            <title><![CDATA[Connect with Audi]]></title>
+				<controller type="window">externalform</controller>
+				<dataPath></dataPath>
+				<useHistory value="false"></useHistory>
+         		<useTracking value="true"><![CDATA[AoA > Flash > TIE > Models > Audi S5 > Connect with Audi]]></useTracking>
+	            <properties>
+	            	<style>dark</style>
+	           		<swf><![CDATA[http://www.audiusa.com/etc/medialib/cms4imp/audi2/aoa/test-tree/truth_shell.Par.0051.File.swf]]></swf>
+	            </properties>
+			</node>
+			-->
+		</subNodes>
+	</node>
+</navigation>

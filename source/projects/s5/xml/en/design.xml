@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<carview id="1">
+		<callout id="1" x="170" y="175">
+			<label><![CDATA[Aluminum Optic Side View Mirrors]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/sidemirrors.jpg</image>
+			<detail x="670" y="180">
+				<title><![CDATA[Aluminum Optic Side View Mirrors]]></title>
+				<copy><![CDATA[A prime example of form following function, a sleek, aluminum-trimmed side view mirror with integrated directional indicator accentuates the curvaceous design of the Audi S5.]]></copy>
+			</detail>
+		</callout>
+		<callout id="2" x="275" y="480">
+			<label><![CDATA[Integrated LED Daytime Running Lights]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/led.jpg</image>
+			<detail x="15" y="180">
+				<title><![CDATA[Integrated LED Daytime Running Lights]]></title>
+				<copy><![CDATA[Integrated LED daytime running lights are shrouded in the sleek front fascia, ready for an assault on Mother Nature's oft-moody ambient lighting scheme.]]></copy>
+			</detail>
+		</callout>
+	</carview>
+	
+	<carview id="2">
+		<callout id="1" x="670" y="150">
+			<label><![CDATA[S Series Design]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/s_series_design.jpg</image>
+			<detail x="670" y="180">
+				<title><![CDATA[S Series Design]]></title>
+				<copy><![CDATA[There is no distinct point where one line ends and another curve begins on the new Audi S5. At first glance, the eye is seduced by the tight crease line along the flank that boldly sweeps upwards to blend harmoniously with the smooth, dynamic waistline, eventually wrapping up around the brutish 19" wheels to form the Audi S5's aggressive stance. It's a flowing design that one could say is inspired by its impressive Dyno torque-curve shape.]]></copy>
+			</detail>
+		</callout>
+		<callout id="2" x="65" y="205">
+			<label><![CDATA[Carbon Fiber Trim]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/6speedtrim.jpg</image>
+			<detail x="15" y="180">
+				<title><![CDATA[Carbon Fiber Trim]]></title>
+				<copy><![CDATA[Carbon fiber is the one material reserved for only the most high-performance applications. It's only natural that carbon fiber surrounds the driver as a reminder of the Audi S5's technological milestones.]]></copy>
+			</detail>
+		</callout>
+	</carview>
+	
+	<carview id="3">
+		<callout id="1" x="-40" y="280">
+			<label><![CDATA[S Series Badging]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/s_badge.jpg</image>
+			<detail x="670" y="180">
+				<title><![CDATA[S Series Badging]]></title>
+				<copy><![CDATA[Less a badge of status, the S Series Badge is a bold proclamation by its driver that only the best in high-performance technology will do.]]></copy>
+			</detail>
+		</callout>
+		<callout id="2" x="60" y="440">
+			<label><![CDATA[Aluminum Optic Rear Diffuser and Front Spoiler]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/rear_diffuser.jpg</image>
+			<detail x="15" y="200">
+				<title><![CDATA[Aluminum Optic Rear Diffuser and Front Spoiler]]></title>
+				<copy><![CDATA[The Audi S5 features an aluminum optic rear diffuser to maintain seamless aerodynamics.  Keeping with this theme, its aluminum-blade front spoiler deceptively hides the latest in intake design and aerodynamics.]]></copy>
+			</detail>
+		</callout>
+		<callout id="3" x="90" y="165">
+			<label><![CDATA[Integrated Rear Spoiler]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/rear_spoiler.jpg</image>
+			<detail x="670" y="180">
+				<title><![CDATA[Integrated Rear Spoiler]]></title>
+				<copy><![CDATA[An integrated rear spoiler readily increases downforce, and streamlines aerodynamics, while remaining camoflaged in the smooth lines of the curvaceous Audi S5 styling.]]></copy>
+			</detail>
+		</callout>
+	</carview>
+	
+	<carview id="4">
+		<callout id="1" x="485" y="140">
+			<label><![CDATA[Performance Seating]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/seating.jpg</image>
+			<detail x="15" y="180">
+				<title><![CDATA[Performance Seating]]></title>
+				<copy><![CDATA[Fully programmable, Formula-1 inspired leather-sports seating ensures you remain firmly in place and always at the ready to push the Audi S5 the way it was meant to be. 2+2 seating ensures you have the ability to invite other guests to the Audi S5 experience.]]></copy>
+			</detail>
+		</callout>
+		<callout id="2" x="110" y="210">
+			<label><![CDATA[Multi-Function Sport Steering Wheel]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/steeringwheel.jpg</image>
+			<detail x="670" y="180">
+				<title><![CDATA[Multi-Function Sport Steering Wheel]]></title>
+				<copy><![CDATA[We started with an ergonomic design. Next we included volume and in-dash lighting controls. Then we wrapped up the main connection between the Audi S5 and its driver in luxurious leather. All finished off with the S Series Badge.<br><br>Comfort in handling and interior control. Comfort in knowing you're driving an Audi unlike any other.]]></copy>
+			</detail>
+		</callout>
+		<callout id="3" x="300" y="435">
+			<label><![CDATA[Aluminum S Series Door Sills]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/doorsill.jpg</image>
+			<detail x="15" y="210">
+				<title><![CDATA[Aluminum S Series Door Sills]]></title>
+				<copy><![CDATA[As a guarantee the new Audi S5 is as beautiful inside as it is outside, an aluminum, S-Series door sill plate welcomes you with a not-so-subtle reminder that you are stepping into one of the finest Audi's ever made.]]></copy>
+			</detail>
+		</callout>
+	</carview>
+</data>

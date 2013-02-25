@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  
+  <!-- VIEWS -->
+  <configuratorViews type="View">
+  	<view id="1" name="1" file="04" />
+  	<view id="2" name="2" file="01" />
+  	<view id="3" name="3" file="02" />
+  	<view id="4" name="4" file="03" />
+  </configuratorViews> 
+  
+  <!-- CONFIGURATOR -->
+  <configurator mediapath="media/configurator/s5/">
+  
+    <!-- EXTERIOR OPTIONS -->
+    <part type="Exterior Color" id="1" partDependency="" partfolder="exterior/" thumbfolder="thumbs/" partextension=".swf">
+      
+      <categories>
+          <category id="1" type=""/>
+      </categories>
+      
+      <options>
+        <option id="1" optionSku="F14+L8L8" name="Phantom Black Pearl Effect" category="1" thumb="phantom_black.jpg" filepath="phantom_black/" isDefault="true" />
+        <option id="2" optionSku="F14+X5X5" name="Meteor Gray Pearl Effect" category="1" thumb="meteor_grey.jpg" filepath="meteor_gray/" />
+        <option id="3" optionSku="F14+C8C8" name="Brilliant Red" category="1" thumb="brilliant_red.jpg" filepath="brilliant_red/" />
+        <option id="4" optionSku="F14+T9T9" name="Ibis White" category="1" thumb="ibis_white.jpg" filepath="ibis_white/" />
+        <option id="5" optionSku="F14+Q4Q4" name="Quartz Gray Metallic" category="1" thumb="quartz_grey.jpg" filepath="quartz_gray/" />
+        <option id="6" optionSku="F14+A2A2" name="Brilliant Black" category="1" thumb="brilliant_black.jpg" filepath="brilliant_black/" />
+        <option id="7" optionSku="F14+8A8A" name="Deep Sea Blue Pearl Effect" category="1" thumb="deep_sea_blue.jpg" filepath="deep_sea_blue/" />
+        <option id="8" optionSku="F14+P5P5" name="Ice Silver Metallic" category="1" thumb="ice_silver.jpg" filepath="ice_silver/" />
+        <option id="9" optionSku="F14+5N5N" name="Sprint Blue Pearl Effect" category="1" thumb="sprint_blue.jpg" filepath="sprint_blue/" />
+      </options>
+      
+      <!-- S5 -->
+      <optionGroup optionDependency="" isDefault="true">
+        <option id="1" />
+        <option id="2" />
+        <option id="3" />
+        <option id="4" />
+        <option id="5" />
+        <option id="6" />
+        <option id="7" />
+        <option id="8" />
+        <option id="9" />
+      </optionGroup>
+      
+    </part>
+		
+    <!-- WHEEL OPTIONS -->
+    <part type="Wheel Selection" id="2" partDependency="" partfolder="wheel/" thumbfolder="thumbs/" partextension=".swf">
+        
+        <categories>
+          <category id="1" type=""/>
+        </categories>
+        
+        <options>
+          <option id="1" optionSku="GPRVPRV" name="19&quot; Five-twin-spoke" category="1" thumb="19.jpg" filepath="19/" isDefault="true" />
+        </options>
+        
+        <!-- S5 -->
+        <optionGroup optionDependency="" isDefault="true">
+          <option id="1" />
+        </optionGroup>
+		
+    </part>
+    
+    <!-- INTERIOR OPTIONS -->
+    <part type="Interior Color" id="3" partDependency="" partfolder="interior/" thumbfolder="thumbs/" partextension=".jpg">
+        
+        <categories>
+          <category id="1" type="Alcantara/Leather"/>
+          <category id="2" type="Silk Nappa"/>
+        </categories>
+        
+        <options>
+          <option id="1" optionSku="56++++ZM|MSIBN7U" name="Black" category="1" thumb="black_suede.jpg" filepath="black_suede" />
+          <option id="2" optionSku="56++++ZW|MSIBN7U" name="Pearl Silver" category="1" thumb="pearl_silver_suede.jpg" filepath="pearl_silver_suede" />	
+          <option id="3" optionSku="56++++ZM|MSIBN1U" name="Black" category="2" thumb="black_leather.jpg" filepath="black_leather" isDefault="true" />
+          <option id="4" optionSku="56++++TR|MSIBN1U" name="Magma Red" category="2" thumb="magma_red.jpg" filepath="magma_red" />
+          <option id="5" optionSku="56++++ZW|MSIBN1U" name="Pearl Silver" category="2" thumb="pearl_silver_leather.jpg" filepath="pearl_silver_leather" />
+          <option id="6" optionSku="56++++JZ|MSIBN1U" name="Tuscan Brown" category="2" thumb="tuscan_brown.jpg" filepath="tuscan_brown" />
+        </options>
+        
+        <!-- if no dependencies -->
+        
+        <!-- S5  -->
+        <optionGroup optionDependency="" isDefault="true">
+          <option id="1" />
+          <option id="2" />
+          <option id="3" />
+          <option id="4" />
+          <option id="5" />
+          <option id="6" />
+        </optionGroup>
+		
+    </part>
+    
+    <!-- SHADOW -->
+    <part type="shadow" id="4" partDependency="" partfolder="shadow/" partextension=".swf">
+        
+        <categories>
+          <category id="1" type=""/>
+        </categories>
+        
+        <options>
+          <option id="1" optionSku="shad1" name="shadow" category="1" thumb="" filepath="" isDefault="true" />
+        </options>
+        
+        <!-- S5 -->
+        <optionGroup optionDependency="" isDefault="true">
+          <option id="1" />
+        </optionGroup>
+		
+    </part>
+    
+    <!-- CONFIGURE BUTTON -->
+    <part type="Complete Your Audi S5" id="5" partDependency="" sendURL="http://ak4-fr.audi.de/entry.do?mandant=ak4_us_en" trim="8T35B9\\1" nextConfig="equipment-page" modelSku="50538\\2008">
+        
+        <categories />
+        
+        <options />
+		
+        <optionGroup optionDependency="" isDefault="true" />
+		
+    </part>
+    
+  </configurator>
+
+</data>

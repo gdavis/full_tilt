@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sounds>
+
+	<category id="ambience">
+		<sound id="ambient1" preload="true"><![CDATA[media/mp3/ambience/ambientLoop2Xtended.mp3]]></sound>
+	</category>
+	
+	<category id="backgroundLoop">
+		<sound id="loop1" preload="true"><![CDATA[media/mp3/music_loops/orchstralElementMusicLoop.mp3]]></sound>
+	</category>
+	
+	<category id="leadIn">
+		<sound id="leadIn1" preload="false"><![CDATA[media/mp3/lead_in/leadIn1.mp3]]></sound>
+		<sound id="leadIn2" preload="false"><![CDATA[media/mp3/lead_in/transLeadIn.mp3]]></sound>
+		<sound id="leadIn3" preload="true"><![CDATA[media/mp3/lead_in/transLeadIn2.mp3]]></sound>
+	</category>
+	
+	<category id="buttonClicks">
+		<sound id="button1" preload="true"><![CDATA[media/mp3/button_click/onClick.mp3]]></sound>
+		<sound id="button2" preload="true"><![CDATA[media/mp3/button_click/onClick2.mp3]]></sound>
+		<sound id="button3" preload="true"><![CDATA[media/mp3/button_click/onClick3.mp3]]></sound>
+		<sound id="button4" preload="true"><![CDATA[media/mp3/button_click/onClick4.mp3]]></sound>
+		<sound id="button5" preload="true"><![CDATA[media/mp3/button_click/onClick6.mp3]]></sound>
+	</category>
+	
+	<category id="buttonRollovers">
+		<sound id="roll1" preload="false"><![CDATA[media/mp3/button_rollovers/roller1.mp3]]></sound>
+		<sound id="roll2" preload="false"><![CDATA[media/mp3/button_rollovers/roller3.mp3]]></sound>
+		<sound id="roll3" preload="false"><![CDATA[media/mp3/button_rollovers/roller7.mp3]]></sound>
+		<sound id="roll4" preload="false"><![CDATA[media/mp3/button_rollovers/roller8.mp3]]></sound>
+		<sound id="roll5" preload="true"><![CDATA[media/mp3/button_rollovers/roller9.mp3]]></sound>
+		<sound id="roll6" preload="false"><![CDATA[media/mp3/button_rollovers/roller10.mp3]]></sound>
+	</category>
+	
+	<category id="configurator">
+		<sound id="accordion" preload="true"><![CDATA[media/mp3/configurator/accordion.mp3]]></sound>
+		<sound id="carcolorchange" preload="true"><![CDATA[media/mp3/configurator/carcolorchange.mp3]]></sound>
+		<sound id="click2" preload="true"><![CDATA[media/mp3/configurator/click2.mp3]]></sound>
+		<sound id="click3" preload="true"><![CDATA[media/mp3/configurator/click3.mp3]]></sound>
+	</category>
+	
+	<category id="transitionSounds">
+		<sound id="transition1" preload="false"><![CDATA[media/mp3/transitions/trans1.mp3]]></sound>
+		<sound id="transition2" preload="true"><![CDATA[media/mp3/transitions/trans3.mp3]]></sound>
+		<sound id="transition3" preload="false"><![CDATA[media/mp3/transitions/trans4.mp3]]></sound>
+		<sound id="transition4" preload="true"><![CDATA[media/mp3/transitions/trans6.mp3]]></sound>
+		<sound id="transition5" preload="true"><![CDATA[media/mp3/transitions/trans7.mp3]]></sound>
+		<sound id="transition6" preload="false"><![CDATA[media/mp3/transitions/trans8.mp3]]></sound>
+		<sound id="transition7" preload="false"><![CDATA[media/mp3/transitions/trans9.mp3]]></sound>
+		<sound id="transition8" preload="false"><![CDATA[media/mp3/transitions/trans11.mp3]]></sound>
+		<sound id="transition9" preload="false"><![CDATA[media/mp3/transitions/trans12.mp3]]></sound>
+	</category>
+	
+</sounds>

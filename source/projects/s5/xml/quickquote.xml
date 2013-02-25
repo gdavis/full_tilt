@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:TransferData transferId="0" xmlns:tns="http://www.audiusa.com/preKuBa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.audiusa.com/preKuBa preKuBa_V0.4_20060706.xsd">  
+	<UserProfile userId="">
+		<Salutation>_salutation</Salutation>
+		<Title></Title>
+		<FirstName>_firstname</FirstName>
+		<MiddleInitial>_middle</MiddleInitial>
+		<LastName>_lastname</LastName>
+		<Suffix></Suffix>
+		<Addresses>
+			<Address preferredContact="0">
+				<Address1>_address1</Address1>
+				<Address2>_address2</Address2>
+				<City>_city</City>
+				<ZIP>_zip</ZIP>
+				<State stateId="_state">_state</State>
+				<Country countryId="US">US</Country>
+			</Address>
+		</Addresses>
+		<PhoneNumbers>
+			<PhoneNumber>
+				<AreaCode>_areacode</AreaCode>
+				<Number>_number</Number>
+				<Extension>_extension</Extension>
+			</PhoneNumber>
+		</PhoneNumbers>
+		<SmtpAdresses>
+			<SmtpAdress>_smtpaddress</SmtpAdress>
+		</SmtpAdresses>
+	</UserProfile>
+	<QuoteData>
+		<Vehicles>
+			<Vehicle brand="Audi" name="A5/S5" carline="2007">
+				<model name="A5/S5"/>
+			</Vehicle>
+		</Vehicles>
+		<MarketingData>
+			<PlannedPurchaseDate>_plannedpurchasedate</PlannedPurchaseDate>
+			<PlannedFinanceType>_plannedfinancetype</PlannedFinanceType>
+		</MarketingData>
+		<additional>
+			<info>_sourceurl</info>
+		</additional>
+		<ContactData>
+			<Method>_contactmethod</Method>
+		</ContactData>
+	</QuoteData>
+</tns:TransferData>

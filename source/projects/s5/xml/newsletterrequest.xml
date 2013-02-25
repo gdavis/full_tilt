@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:TransferData transferId="0" xmlns:tns="http://www.audiusa.com/preKuBa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.audiusa.com/preKuBa preKuBa_V0.4_20060706.xsd ">
+	<UserProfile userId="">
+		<FirstName>_firstname</FirstName>
+		<LastName>_lastname</LastName>
+		<Addresses>
+			<Address preferredContact="0">
+				<ZIP>_zip</ZIP>
+				<Country countryId="US">US</Country>
+			</Address>
+		</Addresses>
+		<PhoneNumbers></PhoneNumbers>
+		<SmtpAdresses>
+			<SmtpAdress>_smtpaddress</SmtpAdress>
+		</SmtpAdresses>
+	</UserProfile>
+	<RequestData>
+		<NewsletterRequest>
+			<Newsletters>
+				<Newsletter active="1" format="html" newsletterId="AU_A5_S5">A5/S5</Newsletter>
+			</Newsletters>
+		</NewsletterRequest>
+	</RequestData>
+</tns:TransferData>

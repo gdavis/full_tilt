@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<carview id="1">
+		<callout id="1" x="215" y="200">
+			<label><![CDATA[Transmission]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/transmission.jpg</image>
+			<detail x="15" y="180">
+				<title><![CDATA[Transmission]]></title>
+				<copy><![CDATA[At the center of the Audi S5 is a 6-speed manual transmission that offers a seamless connection between car and driver to take advantage of the car's direct-response handling and aggressive driving dynamics.]]></copy>
+			</detail>
+		</callout>
+		<callout id="2" x="630" y="430">
+			<label><![CDATA[quattro® 40/60]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/quattro.jpg</image>
+			<detail x="670" y="180">
+				<title><![CDATA[quattro® 40/60]]></title>
+				<copy><![CDATA[The Audi S5 features the asymmetric, dynamic torque split principle, which optimizes road dynamics with a rear-biased 40/60 split.  This puts more power toward the rear of the vehicle for optimized cornering and handling dynamics.]]></copy>
+			</detail>
+		</callout>
+	</carview>
+	
+	<carview id="2">
+		<callout id="1" x="180" y="435">
+			<label><![CDATA[Brakes]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/brakes.jpg</image>
+			<detail x="670" y="180">
+				<title><![CDATA[Brakes]]></title>
+				<copy><![CDATA[The high-performance braking system on the Audi S5 is engineered in size and capacity to match its aggressive performance characteristics. The result is optimal axle-load distribution to increase top rates of retardation across all speed ranges. Additionally, rear-axle kinematics are maximized to compensate for pitch and low body movement for sensitive braking control.]]></copy>
+			</detail>
+		</callout>
+		
+	</carview>
+	
+	<carview id="3">
+		<callout id="1" x="160" y="440">
+			<label><![CDATA[Dual Branch Exhaust System]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/exhaust.jpg</image>
+			<detail x="15" y="180">
+				<title><![CDATA[Dual Branch Exhaust System]]></title>
+				<copy><![CDATA[A dual-branch exhaust system with 4 oval tailpipes features an Audi S5-specific intake diameter and length to increase high-volumetric efficiency and resonate better at each RPM pulse.]]></copy>
+			</detail>
+		</callout>
+		<callout id="2" x="600" y="435">
+			<label><![CDATA[Wheels]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/wheels.jpg</image>
+			<detail x="670" y="180">
+				<title><![CDATA[Wheels]]></title>
+				<copy><![CDATA[19" cast aluminum, 5-parallel spoke, 8.5 x 19 rims mated to 255/35 ZR19 tires enables greater road feel, maximizes the Audi S5's new suspension characteristics and accentuates its more aggressive stance.]]></copy>
+			</detail>
+		</callout>
+	</carview>
+	
+	<carview id="4">
+		<callout id="1" x="175" y="220">
+			<label><![CDATA[Powerplant]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/powerplant.jpg</image>
+			<detail x="15" y="180">
+				<title><![CDATA[Powerplant]]></title>
+				<copy><![CDATA[The Audi S5 experience begins with a powerful V8 FSI engine, which boldly produces 354hp and 325lb-ft of torque. Meticulous weight-distribution allows the aggressive design to take full advantage of the dynamic engine characteristics.]]></copy>
+			</detail>
+		</callout>
+		<callout id="2" x="310" y="425">
+			<label><![CDATA[Drivetrain]]></label>
+			<sound>media/mp3/runningLights.mp3</sound>
+			<image>media/img/drivetrain.jpg</image>
+			<detail x="670" y="180">
+				<title><![CDATA[Drivetrain]]></title>
+				<copy><![CDATA[A lower-mounted steering rack is positioned ahead of the line of the front axle for better feel. Rear-biased, quattro® permanent all-wheel drive with asymmetrio/dynamic torque distribution, enables pinpoint handling no matter what the road throws at you. Add an S-tuned sport suspension with new five-link front suspension and the result is an expertly tamed Audi S5 with more direct steering and superior handling dynamics.]]></copy>
+			</detail>
+		</callout>
+	</carview>
+</data>

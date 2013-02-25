@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+	<form submitUrl="http://my.audi.com/en/us/private/myAudi?function=exportData" method="post" target="_self" thankYouMsg="Thank you. Your request has been processed. Your personal information will be cleared from this form in 10 seconds.">
+	<!-- BEGIN LEFT SIDE OF FORM -->
+		<!-- HEADER -->
+		<htmlLabel id="title" x="0" y="-10" w="315" h="30" multiline="false">
+	      <![CDATA[<textformat leading="2"><span class='formHeader'>Connect With Audi</span></textformat>]]>
+	    </htmlLabel>
+	    
+	    <!-- COPY -->
+	    <htmlLabel id="body" x="0" y="22" w="315" h="300" multiline="true">
+	      <![CDATA[<span class='formBody'>If you would like to receive the Audi Newsletter and/or have a dealer contact you please check the appropriate boxes and enter your contact information to the right.</span>]]>
+	    </htmlLabel>
+	    
+	    <!-- CHECK BOXES FOR TYPE OF FORM -->
+	    <checkBox id="newsletterrequest" selected="true" value="0" x="0" y="95" w="315" h="20"><![CDATA[Newsletter Signup]]></checkBox>
+	    <checkBox id="quickquote" selected="true" value="0" x="0" y="120" w="315" h="20"><![CDATA[Have A Dealer Contact Me]]></checkBox>
+	<!-- END LEFT SIDE OF FORM -->
+	    
+	<!-- BEGIN RIGHT SIDE OF FORM -->
+	    <!-- TITLE -->
+	    <comboBox id="_salutation" value="0" x="364" y="28" w="140" h="22" rows="5" listW="140" rowH="22" forms="quickquote">
+			<item value="0"><![CDATA[Title]]></item>
+			<item value="Mr."><![CDATA[Mr.]]></item>
+			<item value="Mrs."><![CDATA[Mrs.]]></item>
+			<item value="Ms."><![CDATA[Ms.]]></item>
+			<item value="Dr."><![CDATA[Dr.]]></item>
+		</comboBox>
+			
+		<!-- NAME -->
+		<textInput id="_firstname" x="364" y="53" w="300" h="22" multiline="false" validate="isNotEmpty|isNotDefault" errorTxt="First name required." forms="quickquote|newsletterrequest">
+	      <![CDATA[*First Name]]>
+	    </textInput>
+	    
+	  	<textInput id="_middle" x="364" y="78" w="300" h="22" multiline="false" forms="quickquote">
+	      <![CDATA[Middle Name]]>
+	    </textInput>
+	    
+		<textInput id="_lastname" x="364" y="103" w="300" h="22" multiline="false" validate="isNotEmpty|isNotDefault" errorTxt="Last name required." forms="quickquote|newsletterrequest">
+	      <![CDATA[*Last Name]]>
+	    </textInput>
+			
+		<!-- EMAIL ADDRESS -->
+		<textInput id="_smtpaddress" x="364" y="128" w="300" h="22" restrict="0-9 a-z A-Z @ . _ \- + " multiline="false" validate="isValidEmail" errorTxt="Your email is invalid." forms="quickquote|newsletterrequest">
+	      <![CDATA[*Email Address]]>
+	    </textInput>
+	    
+	    <!-- ADDRESS -->
+		<textInput id="_address1" x="364" y="153" w="300" h="22" multiline="false" validate="isNotEmpty|isNotDefault" errorTxt="Address required." forms="quickquote">
+	      <![CDATA[*Address 1]]>
+	    </textInput>
+	    
+	    <textInput id="_address2" x="364" y="178" w="300" h="22" multiline="false" forms="quickquote">
+	      <![CDATA[Address 2]]>
+	    </textInput>
+	    
+	    <textInput id="_city" x="364" y="203" w="140" h="22" multiline="false" validate="isNotEmpty|isNotDefault" errorTxt="City required." forms="quickquote">
+	      <![CDATA[*City]]>
+	    </textInput>
+	    
+	    <comboBox id="_state" value="0" x="509" y="203" w="75" h="22" rows="8" listW="75" rowH="22" validate="isNotEmpty|isNotDefault" errorTxt="State required." forms="quickquote|newsletterrequest">
+			<item value="0"><![CDATA[*State]]></item>
+			<item value="AK"><![CDATA[AK]]></item>
+			<item value="AL"><![CDATA[AL]]></item>
+			<item value="AR"><![CDATA[AR]]></item>
+			<item value="AZ"><![CDATA[AZ]]></item>
+			<item value="CA"><![CDATA[CA]]></item>
+			<item value="CO"><![CDATA[CO]]></item>
+			<item value="CT"><![CDATA[CT]]></item>
+			<item value="DC"><![CDATA[DC]]></item>
+			<item value="DE"><![CDATA[DE]]></item>
+			<item value="FL"><![CDATA[FL]]></item>
+			<item value="GA"><![CDATA[GA]]></item>
+			<item value="HI"><![CDATA[HI]]></item>
+			<item value="IA"><![CDATA[IA]]></item>
+			<item value="ID"><![CDATA[ID]]></item>
+			<item value="IL"><![CDATA[IL]]></item>
+			<item value="IN"><![CDATA[IN]]></item>
+			<item value="KS"><![CDATA[KS]]></item>
+			<item value="KY"><![CDATA[KY]]></item>
+			<item value="LA"><![CDATA[LA]]></item>
+			<item value="MA"><![CDATA[MA]]></item>
+			<item value="MD"><![CDATA[MD]]></item>
+			<item value="ME"><![CDATA[ME]]></item>
+			<item value="MI"><![CDATA[MI]]></item>
+			<item value="MN"><![CDATA[MN]]></item>
+			<item value="MO"><![CDATA[MO]]></item>
+			<item value="MS"><![CDATA[MS]]></item>
+			<item value="MT"><![CDATA[MT]]></item>
+			<item value="NC"><![CDATA[NC]]></item>
+			<item value="ND"><![CDATA[ND]]></item>
+			<item value="NE"><![CDATA[NE]]></item>
+			<item value="NH"><![CDATA[NH]]></item>
+			<item value="NJ"><![CDATA[NJ]]></item>
+			<item value="NM"><![CDATA[NM]]></item>
+			<item value="NV"><![CDATA[NV]]></item>
+			<item value="NY"><![CDATA[NY]]></item>
+			<item value="OH"><![CDATA[OH]]></item>
+			<item value="OK"><![CDATA[OK]]></item>
+			<item value="OR"><![CDATA[OR]]></item>
+			<item value="PA"><![CDATA[PA]]></item>
+			<item value="PR"><![CDATA[PR]]></item>
+			<item value="RI"><![CDATA[RI]]></item>
+			<item value="SC"><![CDATA[SC]]></item>
+			<item value="SD"><![CDATA[SD]]></item>
+			<item value="TN"><![CDATA[TN]]></item>
+			<item value="TX"><![CDATA[TX]]></item>
+			<item value="UT"><![CDATA[UT]]></item>
+			<item value="VA"><![CDATA[VA]]></item>
+			<item value="VT"><![CDATA[VT]]></item>
+			<item value="WA"><![CDATA[WA]]></item>
+			<item value="WI"><![CDATA[WI]]></item>
+			<item value="WV"><![CDATA[WV]]></item>
+			<item value="WY"><![CDATA[WY]]></item>
+		</comboBox>
+	    
+	    <textInput id="_zip" x="589" y="203" w="75" h="22" multiline="false" maxChars="5" restrict="0-9 \-" validate="isNotEmpty|isNotDefault" errorTxt="Zip code required." forms="quickquote|newsletterrequest">
+	      <![CDATA[*Zip]]>
+	    </textInput>
+	    
+	    <comboBox id="_country" value="0" x="364" y="228" w="140" h="22" rows="4" listW="140" rowH="22" validate="isNotEmpty|isNotDefault" errorTxt="Country required." forms="quickquote|newsletterrequest">
+			<item value="0"><![CDATA[*Country]]></item>
+			<item value="USA"><![CDATA[USA]]></item>
+		</comboBox>
+			
+		<!-- PHONE NUMBER -->
+		<textInput id="_areacode" x="364" y="253" w="75" h="22" maxChars="3" restrict="0-9" multiline="false" validate="isNotEmpty|isNotDefault" errorTxt="Area code required." forms="quickquote">
+	      <![CDATA[*Area Code]]>
+	    </textInput>
+	    
+	    <textInput id="_number" x="444" y="253" w="100" h="22" maxChars="8" restrict="0-9 \-" multiline="false" validate="isNotEmpty|isNotDefault" errorTxt="Phone number required." forms="quickquote">
+	      <![CDATA[*Phone Number]]>
+	    </textInput>
+			
+		<textInput id="_extension" x="549" y="253" w="35" h="22" restrict="0-9" multiline="false" forms="quickquote">
+	      <![CDATA[Ext.]]>
+	    </textInput>
+	    
+	    <!-- PREFERRED METHOD OF CONTACT -->
+	    <comboBox id="_contactmethod" value="0" x="364" y="278" w="220" h="22" rows="5" listW="220" rowH="22" validate="isNotEmpty|isNotDefault" errorTxt="Please enter a contact method." forms="quickquote">
+			<item value="0"><![CDATA[*Preferred Method of Contact]]></item>
+			<item value="Email"><![CDATA[Email]]></item>
+			<item value="Phone-morning"><![CDATA[Phone-morning]]></item>
+			<item value="Phone-afternoon"><![CDATA[Phone-afternoon]]></item>
+			<item value="Phone-evening"><![CDATA[Phone-evening]]></item>
+		</comboBox>
+			
+		<!-- PLANNED PURCHASE DATE -->
+	    <comboBox id="_plannedpurchasedate" value="0" x="364" y="303" w="220" h="22" rows="7" listW="220" rowH="22" validate="isNotEmpty|isNotDefault" errorTxt="Please enter a purchase date." forms="quickquote">
+			<item value="0"><![CDATA[*Purchase Intention]]></item>
+			<item value="Now"><![CDATA[Now]]></item>
+			<item value="Within 1 month"><![CDATA[Within 1 month]]></item>
+			<item value="Within 3 months"><![CDATA[Within 3 months]]></item>
+			<item value="Within 6 months"><![CDATA[Within 6 months]]></item>
+			<item value="Within 12 months"><![CDATA[Within 12 months]]></item>
+			<item value="Over 12 months"><![CDATA[Over 12 months]]></item>
+		</comboBox>
+	    
+	    <!-- FINANCE OPTION -->
+	    <comboBox id="_plannedfinancetype" value="0" x="364" y="328" w="220" h="22" rows="4" listW="220" rowH="22" validate="isNotEmpty|isNotDefault" errorTxt="Please enter a finance option." forms="quickquote">
+			<item value="0"><![CDATA[*Finance option]]></item>
+			<item value="Buy"><![CDATA[Buy]]></item>
+			<item value="Lease"><![CDATA[Lease]]></item>
+			<item value="Undecided"><![CDATA[Undecided]]></item>
+		</comboBox>
+	    
+	    <!-- SUBMIT FORM -->
+	    <submitButton id="submit" x="364" y="353" w="75" h="22"><![CDATA[Submit]]></submitButton>
+	    
+	    <!-- ERROR TEXT -->
+		<errorTxt id="errorText" x="364" y="378" w="500" h="22" html="" selectable="false" style="" wordWrap="false"></errorTxt>
+		
+	    <!-- ERROR TEXT -->
+		<successTxt id="successText" x="364" y="378" w="500" h="22" html="" selectable="false" style="" wordWrap="false"><![CDATA[Thank You for submitting.]]></successTxt>
+		
+	<!-- END RIGHT SIDE OF FORM -->
+	</form>
+</node>

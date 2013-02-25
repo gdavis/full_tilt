@@ -1,4 +1,19 @@
 entries:
+  # Champion Architect
+  - title: Champion Architect iPhone App
+    client: Gravity Core Apps
+    agency: none
+    role: Design, Developer
+    tech: Objective-C, Ruby on Rails
+    details: Champion Architect is a utility app for the popular competitive video game, League of Legends. This is my first self-designed and developed app I've released on the App Store. The app is powered by a Ruby on Rails backend that syncs with the app's to keep it up to date with the latest game information. In its first 3 months in the App Store the app has received more than 35,000 downloads and has an average rating of 4.5 stars.
+    link:
+      label: "view in itunes"
+      url: "https://itunes.apple.com/us/app/champion-architect/id564937128?ls=1&mt=8"
+      alt: "view in the itunes store"
+      target: "_blank"
+    images:
+      - images/projects/champion-architect-01.jpg
+  
   # TNF Trailhead
   - title: The North Face<sup><span style="font-size:12px;">®</span></sup> Trailhead iPhone App
     client: The North Face<sup><span style="font-size:10px;">®</span></sup>
@@ -6,11 +21,6 @@ entries:
     role: Lead Developer
     tech: Objective-C
     details: The TNF Trailhead app allows users to find local trails, record their own, and share with their friends. Powered by Everytrail.com, you can track your trail distance, speed, distance, and elevation in real-time.
-    link:
-      label: "view in itunes"
-      url: "http://itunes.apple.com/us/app/trailhead/id380841551?mt=8"
-      alt: "view in the itunes store"
-      target: "_blank"
     images:
       - images/projects/trailhead-01.jpg
       - images/projects/trailhead-02.jpg

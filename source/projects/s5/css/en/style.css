@@ -1,0 +1,104 @@
+html{ height:100%; }
+
+body{ margin:0px; padding:0px; height:100%; background-color:#000000; font-family: verdana; font-size: 10px; }
+
+iframe { border: none 1px; width: 0px; height: 0px; }
+
+#main { height:100%; }
+
+#flashcontent { height:100%; }
+
+div.downloader { width: 0px; height: 0px; overflow: hidden; }
+
+#downloader { position: absolute; top:0px; left:0px; z-index: -10; overflow: hidden; }
+
+/* Audi of America  */
+
+div.inner {
+    background: #fff;
+    width: 800px;
+    margin: 1% auto;
+    padding: 2%;
+    font-family: "Verdana", sans-serif;
+    }
+
+table {
+    width: 800px;
+    }
+    
+/* HEADER */
+thead {
+    
+    font-weight: bold;
+    text-align: left;
+    }
+thead h3 {font-weight: bold; padding: 0; margin: 0;}
+thead h5 {padding: .25em 0 0 2em; margin:0;}
+thead a {color: #000; text-decoration: none;}
+
+
+
+
+/* MAIN CONTENT */
+tbody {background: #e1e1e1;}
+#nav {
+    float: left;
+    width: 155px;
+    padding: 1em 10px 2em 10px;
+    }
+#nav h5 {
+    margin: 0;
+    padding: 0 0 10px 0;
+    }
+#nav ul {
+    list-style: none;
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 90%;
+    }
+#nav ul ul {padding: 5px 0 0 10px;}
+#nav ul li {padding: 0; margin: 0;}
+#nav a {
+    color: #000;
+    text-decoration: none;
+    }
+#nav a:hover {text-decoration: underline;}
+#nav a.current {font-weight: bold;}
+
+
+
+
+#content {
+    background: #fff;
+    height: 450px;
+    margin-left: 175px;
+    padding: 10px 20px;
+    }
+#content dt {font-weight: bold;}
+#content_long {
+    background: #fff;
+    margin-left: 175px;
+    padding: 10px 20px;
+    }
+#content_long dt {font-weight: bold;}
+
+
+
+
+
+/* FOOTER */
+tfoot {background: #b5bbad;}
+tfoot td {padding: .25em 1em;}
+tfoot a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+
+/* FOOT NOTE */
+#footNote {
+    padding: 1em 2em;
+    font-size: 90%;
+    text-align: center;
+    }
