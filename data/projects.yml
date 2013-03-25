@@ -13,6 +13,21 @@ entries:
       target: "_blank"
     images:
       - images/projects/champion-architect-01.jpg
+
+  # Healthspek
+  - title: Healthspek iPad App
+    client: EaseMD
+    agency: rabble+rouser
+    role: Lead Developer
+    tech: Objective-C
+    details: Healthspek is your personal medical record app that saves your medical history to cloud-based servers. For this project I was contracted on behalf of rabble+rouser to help develop the 1.0 App Store release. The app is built upon a CoreData stack with custom cloud syncing services that ensures all photos and text are automatically updated across all devices, even when making changes offline. Winner of the 2013 Appy Award for best Medical app.
+    link:
+      label: "view in itunes"
+      url: "https://itunes.apple.com/us/app/healthspek/id576488481?mt=8"
+      alt: "view in the itunes store"
+      target: "_blank"
+    images:
+      - images/projects/healthspek-01.jpg
   
   # TNF Trailhead
   - title: The North Face<sup><span style="font-size:12px;">®</span></sup> Trailhead iPhone App
