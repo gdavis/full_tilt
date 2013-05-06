@@ -5,7 +5,7 @@ entries:
     agency: none
     role: Design, Developer
     tech: Objective-C, Ruby on Rails
-    details: Champion Architect is a utility app for the popular competitive video game, League of Legends. This is my first self-designed and developed app I've released on the App Store. The app is powered by a Ruby on Rails backend that syncs with the app to keep it up to date with the latest game information. In has been downloaded over 75,000 times in its first six months and has a 5 star average rating.
+    details: Champion Architect is a utility app for the popular competitive video game, League of Legends. This is a completely self-designed and developed app that I currently maintain and is available on the App Store. It is powered by a Ruby on Rails backend that keeps the app up to date with the latest game information. In has been downloaded over 75,000 times in its first six months and has an average rating of five stars.
     link:
       label: "view in itunes"
       url: "https://itunes.apple.com/us/app/champion-architect/id564937128?ls=1&mt=8"
