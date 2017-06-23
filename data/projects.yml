@@ -1,16 +1,90 @@
 entries:
-  # Champion Architect
-  - title: Champion Architect iPhone App
-    client: Gravity Core Apps
-    agency: none
-    role: Design, Developer
-    tech: Objective-C, Ruby on Rails
-    details: Champion Architect is a utility app for the popular competitive video game, League of Legends. This is a completely self-designed and developed app that I currently maintain and is available on the App Store. It is powered by a Ruby on Rails backend that keeps the app up to date with the latest game information. In has been downloaded over 75,000 times in its first six months and has an average rating of five stars.
+  # BEGIN NEW CONTENT ----------------------------------------------------------------
+    
+  # Chewy.com e-Commerce iPhone App
+  - title: Chewy.com – eCommerce iPhone App
+    client: Chewy.com
+    agency: Possible Mobile
+    role: Lead Developer
+    tech: Swift
+    details: "In 2016, Possible Mobile brought me in to help develop the Chewy.com e-commerice iPhone app. This app allows Chewy.com customers to search, order, and resupply products from Chewy.com to meet the needs of their pets. As the Lead Developer for the project, I worked in conjunction with the application architect and project managers to design and implement the core foundation of the application structure and many of the user interfaces."
     link:
       label: "view in itunes"
-      url: "https://itunes.apple.com/us/app/champion-architect/id564937128?ls=1&mt=8"
+      url: "https://itunes.apple.com/us/app/chewy-pet-food-at-prices-youll-love/id1149449468?mt=8"
       alt: "view in the itunes store"
       target: "_blank"
+    images:
+      - images/projects/chewy-01.jpg
+  
+  # EpicMix Map and Time Features 
+  - title: EpicMix – New Time Feature
+    client: Vail Resorts
+    agency: none
+    role: Lead Developer
+    tech: Objective-C, Swift
+    details: "In late 2015, Vail Resorts contracted me to add two new significant features to their existing iPhone app: a new interactive map and list view that shows real-time updates for status and wait times for all the Vail Resorts mountains. The map portion displays trail maps and with accurate GPS readings showing your current location, lift locations, and updates in real-time. To accompany the map portion, a list view shows lift information in collapsable sections."
+    link:
+      label: "view in itunes"
+      url: "https://itunes.apple.com/us/app/epicmix/id395375487?mt=8"
+      alt: "view in the itunes store"
+      target: "_blank"
+    images:
+      - images/projects/epicmix-01.jpg
+      
+  # PGA Tour iPad App
+  - title: PGATour – iPad App
+    client: PGATour.com
+    agency: Possible Mobile
+    role: Lead Developer
+    tech: Objective-C
+    details: In 2015 I worked under Possible Mobile to lead the development effort to add native iPad support to the existing iPhone app. The iPad app includes features such as real-time updates, a shot tracker to view each players shot on the golf course map, interactive golf course maps, detailed statistics, highlight videos, and live streaming TV."
+    link:
+      label: "view in itunes"
+      url: "https://itunes.apple.com/us/app/pga-tour-mobile/id489689106?mt=8"
+      alt: "view in the itunes store"
+      target: "_blank"
+    images:
+      - images/projects/pgatour-01.jpg
+      
+  # VerifyValid
+  - title: Checkbook iPhone App
+    client: Verify Valid, LLC
+    agency: Universal Mind
+    role: Lead Developer
+    tech: Objective-C
+    details: "In 2013-2014 I worked with Universal Mind to develop a checkbook app for VerifyValid that allows users to cash & send checks as well as view their banking information. This app was developed to support themes which allows the branding to be changed and used for multitple apps on the iTunes store. Because of the sensitive nature of the application, the app had full test coverage of all business requirements using both unit and automated UI testing. As the sole developer on the project, I was responsible for the architecture and implemention of all app features."
+    link:
+      label: "view in itunes"
+      url: "https://itunes.apple.com/us/app/echeckspro-mobile-checkbook/id1003805207?mt=8"
+      alt: "view in the itunes store"
+      target: "_blank"
+    images:
+      - images/projects/verifyvalid-01.jpg
+      
+  # Shotopia App
+  - title: Shoptopia iPhone App
+    client: Placewise Media
+    agency: none
+    role: App Designer, Lead Developer
+    tech: Swift
+    details: "In late 2013 I was contracted by Placewise Media to update their existing Shoptopia app to support iOS7. The end product was a completely re-designed and deveoped app built from the ground-up to support iOS7. The Shoptopia app is location-aware to helps users find the best deals at their favorite stores. Using GPS and geo-fencing, users are delivered time-sensitive coupons based on their location. Users can also use the browse and search functions within the app to find the best deals around."
+    link:
+      label: "view in itunes"
+      url: "https://itunes.apple.com/us/app/shoptopia-your-shopping-companion/id650224442?mt=8"
+      alt: "view in the itunes store"
+      target: "_blank"
+    images:
+      - images/projects/shoptopia-01.jpg
+  
+  # END NEW CONTENT ------------------------------------------------------------------
+  
+  # Champion Architect
+  - title: Champion Architect iPhone App
+    client: none
+    agency: none
+    role: Designer, Developer
+    tech: Objective-C, Ruby on Rails
+    details: Champion Architect is a utility app for the popular competitive video game, League of Legends. This is a completely self-designed and developed app that includes CoreData, iCloud sync, and automated daily server updates. This app allows users to create custom configurations for the equipment they wish to use in game, all while saving to CoreData and syncing across multiple devices. It is powered by a Ruby on Rails backend that keeps the app up to date with the latest game information. In has been downloaded over 250,000 times and has an average rating of five stars.
     images:
       - images/projects/champion-architect-01.jpg
 
@@ -47,11 +121,6 @@ entries:
     role: Lead Developer
     tech: Objective-C, Ruby on Rails
     details: The Snow Report is the one stop iPhone app to get snow conditions, weather forcasts, trail maps, and other details for resorts across the world. I began working on the 2.0 version of the application, where I led the a major overhaul to the application structure and added additional social networking features.
-    link:
-      label: "view in itunes"
-      url: "http://itunes.apple.com/us/app/the-snow-report/id297613771?mt=8"
-      alt: "view in the itunes store"
-      target: "_blank"
     images:
       - images/projects/snowreport-01.jpg
 
@@ -62,11 +131,6 @@ entries:
     role: Lead UI Developer
     tech: Objective-C, HTML/CSS, Javascript
     details: The A7 Experience iPad app allows users to engage with and explore the new Audi A7. With the A7 Experience app you can configure colors, wheel options, learn about safety features, technology and more.
-    link:
-      label: "view in iTunes"
-      url: "http://itunes.apple.com/us/app/audi-a7-experience/id444206064?mt=8"
-      alt: "Click to view the site"
-      target: "_blank"
     images:
       - images/projects/a7-experience-01.jpg
 
@@ -77,11 +141,6 @@ entries:
     role: Developer
     tech: Objective-C
     details: The A8 Experience iPad app lets you experience the features of the new Audi A8 on your iPad. Intially developed by Mutual Mobile in conjunction with Factory Design Labs, I led quality assurance, managed bug fixes, and added additional features after the initial development.
-    link:
-      label: "view in iTunes"
-      url: "http://itunes.apple.com/us/app/audi-a8-experience/id401674171?mt=8"
-      alt: "Click to view the site"
-      target: "_blank"
     images:
       - images/projects/a8-experience-01.jpg
       - images/projects/a8-experience-02.jpg
@@ -93,11 +152,6 @@ entries:
     role: Lead UI Developer
     tech: Ruby on Rails, HAML, SASS
     details: Website for the ski manufacturing company, Differences. Lead the development of the frontend website experience using Ruby on Rails with HAML and SASS.
-    link:
-      label: "view site"
-      url: "http://www.differences.li"
-      alt: "Click to view the site"
-      target: "_blank"
     images:
       - images/projects/differences-site-01.jpg
 
@@ -108,11 +162,6 @@ entries:
     role: Lead UI Developer
     tech: Actionscript 3.0 using the Away3D library
     details: The Differences Ski Configurator allows users to customize their own set of skis using a provided graphics library, or by uploading their own images. A customer can then send their design to the Differences shop and work with a representative to bring their design to life.
-    link:
-      label: "view site"
-      url: "http://en.differences.li/skis-home/skis/custom-ski-configurator"
-      alt: "Click to view the site"
-      target: "_blank"
     images:
       - images/projects/differences-01.jpg
       - images/projects/differences-02.jpg
@@ -124,11 +173,6 @@ entries:
     role: Lead UI Developer
     tech: Actionscript 3.0
     details: In 2007, Audi tasked Factory Design Labs to build a microsite for the new Audi S5. As the only developer on the project, I worked closely with designers and video editors to create a compelling experience for the S5 with a mix of video and flash animation.
-    link:
-      label: "view archived site"
-      url: "/projects/s5/index.html"
-      alt: "Click to view the site"
-      target: "_blank"
     images:
       - images/projects/s5-01.jpg
       - images/projects/s5-02.jpg
@@ -153,11 +197,6 @@ entries:
     role: Designer, Developer
     tech: Photoshop, HTML, Javascript, PHP, Actionscript 3.0
     details: In 2010, I was commissioned to design and develop a new website for 8th Heaven that would be built upon a backend that would be easily maintainable for their staff. The site is built upon Wordpress using several custom plugins to manage the sales, clinics, and events at 8th Heaven.
-    link:
-      label: "view site"
-      url: "http://www.8thheavenhorses.com"
-      alt: "Click to view the site"
-      target: "_blank"
     images:
       - images/projects/8th-heaven-01.jpg
       - images/projects/8th-heaven-02.jpg
