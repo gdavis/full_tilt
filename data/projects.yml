@@ -1,5 +1,4 @@
 entries:
-  # BEGIN NEW CONTENT ----------------------------------------------------------------
     
   # Chewy.com e-Commerce iPhone App
   - title: Chewy.com – eCommerce iPhone App
@@ -75,8 +74,6 @@ entries:
       target: "_blank"
     images:
       - images/projects/shoptopia-01.jpg
-  
-  # END NEW CONTENT ------------------------------------------------------------------
   
   # Champion Architect
   - title: Champion Architect iPhone App
